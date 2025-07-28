@@ -16,10 +16,10 @@ physical organic chemistry labolatory since 2018
 
 私たちの研究室について詳しく紹介した資料をご覧いただけます。
 
-![POCLAB研究室紹介](../images/labintro-preview.png)
+![POCLAB研究室紹介]({{ site.baseurl }}/images/labintro-preview.png)
 *研究室紹介資料のプレビュー*
 
-### [📥 研究室紹介PDFをダウンロード](../files/labintro.pdf){: .btn .btn--success .btn--large}
+### [📥 研究室紹介PDFをダウンロード]({{ site.baseurl }}/files/labintro.pdf){: .btn .btn--success .btn--large}
 
 ---
 

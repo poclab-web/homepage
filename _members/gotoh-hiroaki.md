@@ -3,6 +3,7 @@ title: "Hiroaki Gotoh"
 collection: members
 layout: single
 author_profile: false
+permalink: /members/gotoh-hiroaki/
 ---
 
 ## 専門分野
