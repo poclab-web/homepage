@@ -1,9 +1,9 @@
 ---
-title: "Hiroya Mukai"
+title: "Takafumi Nishii"
 collection: members
 layout: single
 author_profile: false
-permalink: /members/hiroya-mukai/
+permalink: /members/nishii-takafumi/
 ---
 
 

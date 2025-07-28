@@ -1,7 +1,7 @@
 ---
 title: "抗酸化物質の予測と構造活性相関研究"
 excerpt: "DPPH、ORAC等の抗酸化指標の予測と分子記述子を用いた構造活性相関の解明<br/>
-<img src='{{ site.baseurl }}/images/500x300.png'>"
+<img src='../images/500x300.png'>"
 collection: portfolio
 ---
 
