@@ -10,11 +10,11 @@ author_profile: true
 
 | Position| Name | 
 |------|------|
-| PI | [Gotoh Hiroaki]({{ "../members/gotoh-hiroaki/" | relative_url }}) |
-| D2 | [Sakaguchi Daimon]({{ "../members/sakaguchi-daimon/" | relative_url }}) | 
+| PI | [Gotoh Hiroaki](homepage/members/gotoh-hiroaki/) |
+| D2 | [Sakaguchi Daimon]({{ site.baseurl }}/members/sakaguchi-daimon/) | 
 | D2| Matsumoto Yuuto | 
 | M2 | Shimono Masaki | 
-| M2 | [Nishii Takafumi]({{ "../members/nishii-takafumi/" | relative_url }})| 
+| M2 | [Nishii Takafumi]({{ site.baseurl }}/members/nishii-takafumi/)| 
 
 ---
 
