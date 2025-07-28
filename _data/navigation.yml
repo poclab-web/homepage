@@ -1,0 +1,24 @@
+# 以下はWebサイトのヘッダーに表示されるリンクの順序です。
+#
+# ここで順序を変更すると、表示順序が調整されます。また、追加のリンクを
+# 加えることもできます。リンクを削除すると、ヘッダーから非表示になりますが、
+# サイトから完全に削除されるわけではありません。
+#
+# 注意: CVオプションは一つだけ選択してください。最初はMarkdown形式のページ用、
+#      二番目はJSONで生成されるページ用です。
+
+main:
+  - title: "Research"
+    url: /portfolio/
+
+  - title: "Members"
+    url: /members/    
+
+  - title: "Publications"
+    url: /publications/
+    
+  - title: "Teaching"
+    url: /teaching/
+    
+  - title: "Collaboration"
+    url: /collaboration/
