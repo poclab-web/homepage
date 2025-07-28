@@ -14,7 +14,7 @@ author_profile: true
 | D2 | [Sakaguchi Daimon]({{ site.baseurl }}/members/sakaguchi-daimon/) | 
 | D2| Matsumoto Yuuto | 
 | M2 | Shimono Masaki | 
-| M2 | [Nishii Takafumi]({{ site.baseurl }}/members/nishii-takafumi/)| 
+| M2 | [Nishii Takafumi](/members/nishii-takafumi/)| 
 
 ---
 

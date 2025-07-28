@@ -13,8 +13,8 @@ title                    : "POCLAB - Physical Organic Chemistry Laboratory"
 title_separator          : "-"
 name                     : &name "POCLAB"
 description              : &description "Physical Organic Chemistry Laboratory - Research and Development"
-url                      : "https://poclab-web.github.io/homepage"
-baseurl                  : ""
+url                      : "https://poclab-web.github.io"
+baseurl                  : "/homepage"
 repository               : "poclab-web/homepage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
