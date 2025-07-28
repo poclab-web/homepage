@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "POCLAB"
 description              : &description "Physical Organic Chemistry Laboratory - Research and Development"
 url                      : "https://poclab-web.github.io/homepage"
-baseurl                  : ""
+baseurl                  : "poclab-web.github.io/homepage"
 repository               : "poclab-web/homepage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -23,13 +23,13 @@ repository               : "poclab-web/homepage"
 author:
   # Biographic information
   avatar           : "poclab-logo.png"
-  name             : "POCLAB"
-  pronouns         : # example: "she/her"  
+  # name             : "POCLAB"
+  # pronouns         : # example: "she/her"  
   bio              : "Physical Organic Chemistry Laboratory"
   location         : "Yokohama, Japan"
   employer         : "Yokohama National University"
   uri              : "https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ja.html"
-  email            : "contact@poclab.example.org" 
+  # email            : "gotoh-hiroaki-yw@ynu.ac.jp" 
 
   # Academic websites
   # academia         : # URL
@@ -52,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
