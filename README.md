@@ -6,7 +6,7 @@
 
 # 公開先のホームページのURL
 
-[https://poclab-web.github.io/homepage.github.io/](https://poclab-web.github.io/poclab-website/)
+https://poclab-web.github.io/homepage/
 
 # はじめに
 
