@@ -22,10 +22,10 @@ repository               : "poclab-web/homepage"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "poclab-logo-square.png"
+  avatar           : "poclab-logo.png"
   name             : "POCLAB"
   pronouns         : # example: "she/her"  
-  bio              : "Precision Organic Chemistry Laboratory"
+  bio              : "Physical Organic Chemistry Laboratory"
   location         : "Yokohama, Japan"
   employer         : "Yokohama National University"
   uri              : "https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ja.html"
@@ -230,7 +230,7 @@ collections:
     permalink: /:collection/:path/
   members:
     output: true
-    permalink: /:collection/:name/
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site

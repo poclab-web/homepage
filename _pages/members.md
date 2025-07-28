@@ -10,8 +10,8 @@ author_profile: true
 
 | Position| Name | 
 |------|------|
-| PI | [Hiroaki Gotoh](/members/gotoh-hiroaki/) |
-| D2 | [Sakaguchi Daimon](/members/sakaguchi-daimon/) | 
+| PI | [Hiroaki Gotoh]({{ "/members/gotoh-hiroaki/" | relative_url }}) |
+| D2 | [Sakaguchi Daimon]({{ "/members/sakaguchi-daimon/" | relative_url }}) | 
 | D2| matsumoto-yuuto | 
 | M2 | shimono-masaki | 
 

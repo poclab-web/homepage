@@ -40,3 +40,8 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Custom styles for POCLAB */
+.author__avatar img {
+  border-radius: 0 !important;  /* Remove circular cropping for logo */
+}
