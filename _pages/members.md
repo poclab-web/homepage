@@ -10,31 +10,20 @@ author_profile: true
 
 | Position| Name | 
 |------|------|
-| PI | [Gotoh Hiroaki]({{ site.baseurl }}/members/gotoh-hiroaki/) |
-| D2 | [Sakaguchi Daimon]({{ site.baseurl }}/members/sakaguchi-daimon/) | 
-| D2| Matsumoto Yuuto | 
-| M2 | Shimono Masaki | 
-| M2 | [Nishii Takafumi]({{ site.baseurl }}/members/nishii-takafumi/)| 
-
----
-
-### 研究室配属・進学希望の方へ
-
-#### 🎓 学部生の研究室配属
-
-- 化学・生命系学科の3年生を対象
-- 有機化学に興味のある学生を歓迎
-- 実験研究への積極的な参加を期待
-
-#### 🔬 大学院進学
-
-- 修士課程・博士課程の学生募集
-- 他大学からの進学も歓迎
-- 研究テーマの相談可能
-
-### お問い合わせ
-
-研究室配属や進学に関するご質問は、[お問い合わせページ](/cv/)からご連絡ください。
+| PI | [gotoh hiroaki]({{ site.baseurl }}/members/gotoh-hiroaki/) |
+| D2 | [sakaguchi daimon]({{ site.baseurl }}/members/sakaguchi-daimon/) | 
+| D2| matsumoto yuuto | 
+| M2 | kawasaki taisei |
+| M2 | shimono masaki |
+| M2 | [nishii takafumi]({{ site.baseurl }}/members/nishii-takafumi/)|
+| M1 | ichizawa kaname |
+| M1 | koide yuya |
+| M1 | takahata fuka |
+| M1 | tada chihiro |
+| B4 | mukai hiroya |
+| B4 | itakura mayu |
+| B4 | kato riku |
+| B4 | watanabe kakeru |
 
 ---
 

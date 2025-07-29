@@ -14,10 +14,16 @@ physical organic chemistry labolatory since 2018
 
 ## 📄 研究室紹介
 
-私たちの研究室について詳しく紹介した資料をご覧いただけます。
+POCLabの「POC」は次を意味します:
+
+- **Passion for Originality and Creativity(独創性と創造性への情熱)** 
+- **Proof of Concept (概念実証)** 
+- **Physical Organic Chemistry(物理有機化学)** 
+ 
+私たちは、**化学と情報科学**の交差点で研究を行うグループです。
+データ駆動型のアプローチを通じて、新しい分子と材料の発見と設計を加速することを目指しています。
 
 ![POCLAB研究室紹介]({{ site.baseurl }}/images/labintro-preview.png)
-*研究室紹介資料のプレビュー*
 
 ### [📥 研究室紹介PDFをダウンロード]({{ site.baseurl }}/files/labintro.pdf){: .btn .btn--success .btn--large}
 
@@ -116,11 +122,11 @@ physical organic chemistry labolatory since 2018
 
 研究室の最新の研究成果や活動については、以下のリンクからご確認ください：
 
-- 📊 [Publications](/publications/) - 研究論文・学会発表
-- 🎤 [Talks](/talks/) - 招待講演・学会発表
-- 👨‍🏫 [Teaching](/teaching/) - 教育活動・講義情報
-- 📁 [Portfolio](/portfolio/) - 研究プロジェクト・共同研究
-- 👥 [Members](/members/) - 研究室メンバー紹介
+- 📁 [Research]({{ site.baseurl }}/portfolio/) - 研究プロジェクト・共同研究
+- 👥 [Members]({{ site.baseurl }}/members/) - 研究室メンバー紹介
+- 📊 [Publications]({{ site.baseurl }}/publications/) - 研究論文・学会発表
+- 👨‍🏫 [Teaching]({{ site.baseurl }}/teaching/) - 教育活動・講義情報
+- 🤝 [Collaboration]({{ site.baseurl }}/collaboration/) - 共同研究・学術指導
 
 ## お問い合わせ
 
@@ -129,8 +135,7 @@ physical organic chemistry labolatory since 2018
 研究内容や研究室見学について、お気軽にお問い合わせください。
 
 **研究室所在地**: 横浜国立大学 理工学部  
-**メール**: [お問い合わせフォーム](mailto:contact@poclab.example.org)  
-**研究者情報**: [横浜国立大学研究者総覧](https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ja.html)
+**研究室の代表者情報**: [横浜国立大学研究者総覧](https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ja.html)
 
 ### 📍 **アクセス情報**
 
@@ -143,9 +148,7 @@ physical organic chemistry labolatory since 2018
 ------
 
 - [横浜国立大学](https://www.ynu.ac.jp/)
-- [理工学部](https://www.eng.ynu.ac.jp/)
-- [化学・生命系学科](https://chem-bio.ynu.ac.jp/)
-- [GitHub Repository](https://github.com/gotoh-poclab)
+- [POCLaB GitHub Repository](https://github.com/poclab-web)
 
 ------
 

@@ -14,7 +14,7 @@ permalink: /members/gotoh-hiroaki/
 - 機能性分子の設計と合成
 
 ## 主要論文
-研究業績については[Publications](/publications/)をご覧ください。
+研究業績については[Publications]({{ site.baseurl }}/publications/)をご覧ください。
 
 ## 連絡先
-研究に関するお問い合わせは[Contact](/cv/)からお願いします。
+研究に関するお問い合わせは[Contact]({{ site.baseurl }}/cv/)からお願いします。
