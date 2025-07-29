@@ -1,217 +1,113 @@
-# Academic Pages
-**Academic Pagesは、個人および研究者向けポートフォリオWebサイトのためのGitHub Pagesテンプレートです。**
-詳細は https://academicpages.github.io/ をご覧ください。このホームページは、academicpagesで公開されているものをフォークして作成しております。
+# POCLAB研究室ホームページ
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+横浜国立大学 理工学部 化学・生命系学科 POCLAB（Precision Organic Chemistry Laboratory）の研究室Webサイトです。
 
-# 公開先のホームページのURL
+![Homepage screenshot](images/homepage.png "POCLAB Homepage")
+
+## 🌐 公開URL
 
 https://poclab-web.github.io/homepage/
 
-# はじめに
+## 📋 更新内容
 
-1. GitHubアカウントを作成し（まだ持っていない場合）、メールアドレスを確認してください（必須！）
-2. 右上の「Use this template」ボタンをクリックします
-3. 「New repository」ページで、リポジトリ名を「[あなたのGitHubユーザー名].github.io」として入力します。これがWebサイトのURLにもなります
-4. サイト全体の設定を行い、コンテンツを追加します
-5. ファイル（PDF、.zipファイルなど）を`files/`ディレクトリにアップロードします。これらは https://[あなたのGitHubユーザー名].github.io/files/example.pdf でアクセスできます
-6. リポジトリの設定の「GitHub pages」セクションでステータスを確認します
-7. （オプション）`markdown_generator`フォルダー内のJupyter notebookやPythonスクリプトを使用して、TSVファイルから論文や講演のMarkdownファイルを生成できます
+このサイトでは主に以下の2つのセクションを更新します：
 
-詳細は https://academicpages.github.io/ をご覧ください。
+### 🔬 研究プロジェクト（Portfolio）
 
-## ローカル環境での実行
+- **場所**: `_portfolio/` ディレクトリ
+- **内容**: 研究テーマ、研究成果、進行中のプロジェクト
 
-リポジトリをクローンした後、ローカルでWebサイトをプレビューするには以下の手順に従ってください。
+### 👥 メンバー情報
 
-### macOSユーザー向け
+- **場所**: `_members/` ディレクトリ  
+- **内容**: 教員、大学院生、学部生のプロフィール
 
-#### 1. 必要なツールの確認・インストール
+詳しい更新方法は **[HOWTOUSE.md](HOWTOUSE.md)** をご覧ください。
 
-まず、以下のコマンドでHomebrewがインストールされているか確認してください：
+## 🚀 ローカル環境でのプレビュー
+
+サイトをローカルでプレビューするための基本的な手順です。
+
+### 前提条件のインストール
+
+#### macOSの場合
+
+**1. Homebrewのインストール（未インストールの場合）**
 ```bash
-brew --version
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-Homebrewがインストールされていない場合は、[公式サイト](https://brew.sh/ja/)からインストールしてください。
 
-#### 2. Rubyの管理ツール（rbenv）をインストール
+**2. rbenv（Ruby管理ツール）のインストール**
 ```bash
-# rbenvのインストール
 brew install rbenv ruby-build
-
-# シェル設定の追加
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-#### 3. 新しいRubyバージョンのインストール
+**3. Rubyのインストール**
 ```bash
-# 最新の安定版Rubyをインストール
 rbenv install 3.3.9
-
-# デフォルトバージョンに設定
 rbenv global 3.3.9
-
-# 設定を確認
-ruby -v
+ruby -v  # バージョン確認
 ```
 
-#### 4. bundlerのインストール
+**4. Bundlerのインストール**
 ```bash
 gem install bundler
 ```
 
-#### 5. プロジェクトの依存関係をインストール
-```bash
+### クイックスタート
 
-# ローカルパスを設定（権限エラーを避けるため）
+```bash
+# 1. 依存関係をインストール
 bundle config set --local path 'vendor/bundle'
-
-# 依存関係をインストール
 bundle install
+
+# 2. ローカルサーバーを起動
+bundle exec jekyll serve --port 4000 --host localhost
 ```
 
-#### 6. ローカルサーバーの起動
-```bash
-bundle exec jekyll serve -l -H localhost
-```
-
-成功すると、`http://localhost:4000` でサイトを確認できます。
-
-### Windowsユーザー向け
-
-#### 1. Windows Subsystem for Linux (WSL) のインストール
-
-PowerShellを管理者権限で開き、以下を実行：
-```powershell
-wsl --install
-```
-再起動後、Ubuntu（または好みのLinuxディストリビューション）を設定してください。
-
-#### 2. WSL内で必要なパッケージをインストール
-```bash
-# システムをアップデート
-sudo apt update && sudo apt upgrade -y
-
-# 必要なパッケージをインストール
-sudo apt install ruby-dev ruby-bundler nodejs build-essential gcc make git
-```
-
-#### 3. bundlerの確認・インストール
-```bash
-# bundlerがインストールされているか確認
-bundle --version
-
-# もしインストールされていない場合
-gem install bundler
-```
-
-#### 4. プロジェクトの依存関係をインストール
-```bash
-# プロジェクトディレクトリに移動
-cd /mnt/c/path/to/your/poclab.github.io
-
-# または、WSL内にクローンした場合
-cd ~/poclab.github.io
-
-# 権限エラーを避けるためローカルパスを設定
-bundle config set --local path 'vendor/bundle'
-
-# 依存関係をインストール
-bundle install
-```
-
-#### 5. ローカルサーバーの起動
-```bash
-bundle exec jekyll serve -l -H localhost
-```
-
-成功すると、`http://localhost:4000` でサイトを確認できます。
+ブラウザで `http://localhost:4000` にアクセスしてサイトを確認できます。
 
 ### トラブルシューティング
 
-#### よくある問題と解決方法
-
-**権限エラーが発生する場合：**
+**権限エラーが発生する場合:**
 ```bash
-bundle config set --local path 'vendor/bundle'
 rm -f Gemfile.lock
 bundle install
 ```
 
-**nokogiriのインストールエラー（macOS）：**
+**ポートが使用中の場合:**
 ```bash
-brew install libxml2 libxslt
-gem install nokogiri -- --use-system-libraries
+bundle exec jekyll serve --port 4001 --host localhost
 ```
 
-**サーバーが起動しない場合：**
-```bash
-# Gemfile.lockを削除して再インストール
-rm Gemfile.lock
-bundle install
+詳細なセットアップ手順は [HOWTOUSE.md](HOWTOUSE.md) をご覧ください。
 
-# デフォルトポートで起動
-bundle exec jekyll serve -l -H localhost
+## 🔄 更新ワークフロー
 
-# ポートが使用中の場合は別のポートを使用
-bundle exec jekyll serve --port 4002 --host localhost
-```
+1. **ファイルを編集** (研究プロジェクトやメンバー情報)
+2. **ローカルでプレビュー確認** (変更は自動的に反映されます)
+3. **GitHubにプッシュ**
+4. **GitHub Pagesで自動公開**
 
-### 動作確認
+## 📚 詳細な使用方法
 
-サーバーが正常に起動すると、以下のようなメッセージが表示されます：
-```
-Server address: http://localhost:4000
-Server running... press ctrl-c to stop.
-```
+具体的な更新方法については **[HOWTOUSE.md](HOWTOUSE.md)** で詳しく説明しています：
 
-ブラウザで `http://localhost:4000` にアクセスして、サイトが表示されることを確認してください。
+- 研究プロジェクトの追加・更新方法
+- メンバー情報の管理方法
+- 学年進行時の更新手順
+- トラブルシューティング
 
-### 開発時のワークフロー
+## 🛠️ 技術情報
 
-1. ファイルを編集
-2. ブラウザで変更を確認（自動的に更新されます）
-3. 満足したらGitHubにプッシュ
-4. GitHub Pagesで自動的にサイトが更新されます
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-chmod -R 777 .
-docker compose up
-```
-
-You should now be able to access the website from `localhost:4000`.
-
-### Using the DevContainer in VS Code
-
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development coontainer configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
-
-## メンテナンス
-
-テンプレートのバグレポートや機能リクエストは[GitHub経由で提出](https://github.com/academicpages/academicpages.github.io/issues/new/choose)してください。テンプレートのスタイルに関する質問については、[GitHubで新しいディスカッションを開始](https://github.com/academicpages/academicpages.github.io/discussions)してお気軽にお尋ねください。
-
-このリポジトリは[Stuart Geiger](https://github.com/staeiou)によって[Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)からフォーク（その後分離）されました。Minimal Mistakes Jekyll Themeは© 2016 Michael Rose、MIT Licenseで公開されています（LICENSE.mdを参照）。現在は[Robert Zupko](https://github.com/rjzupkoii)によってメンテナンスされており、追加のメンテナーを歓迎しています。
-
-## バグ修正と機能強化
-
-バグ修正や機能強化をプルリクエストとして提出したい場合は、このリポジトリをテンプレートとして使用するのではなく、[フォーク](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)する必要があります。これにより、テンプレートのコピーをフォークに[同期](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)することも可能になります。
-
-残念ながら、Academic Pagesのようなテンプレートテーマでは、コアテーマのバグ修正や更新を取得するのが少し複雑になる1つの論理的な問題があります。このテンプレートを使用してカスタマイズした場合、同期を試みるとマージコンフリクトが発生する可能性があります。さまざまな.yml設定ファイルやMarkdownファイルを保存したい場合は、リポジトリを削除して再度フォークできます。または、手動でパッチを適用することもできます。
+- **基盤**: [Academic Pages](https://academicpages.github.io/) テンプレートをカスタマイズ
+- **静的サイトジェネレーター**: Jekyll
+- **ホスティング**: GitHub Pages
+- **ライセンス**: MIT License
 
 ---
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+**最終更新**: 2025年7月29日  
+**管理者**: POCLAB

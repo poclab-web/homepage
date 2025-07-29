@@ -39,11 +39,19 @@ POCLABでは、学部・大学院教育を通じて次世代の研究者育成�
 
 以下の資料を順次作成しています。学部の物理有機化学の授業でもこれら内容を教えています。
 
-[ケモインフォマティクス入門書](https://zenn.dev/poclabweb/books/chemoinfomatics_beginner)
-
-[ケモインフォマティクス理論（化学記述子編）](https://zenn.dev/poclabweb/books/chemoinfomatics_theory_descriptor)
-
-[ケモインフォマティクス理論（機械学習編）](https://zenn.dev/poclabweb/books/chemoinfomatics_theory_machinelearning)
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+  <a href="https://zenn.dev/poclabweb/books/chemoinfomatics_beginner">
+    <img src="{{ site.baseurl }}/images/teaching/chemoinfomatics_beginner.png" alt="ケモインフォマティクス入門書" style="width: 250px; height: auto;">
+  </a>
+  
+  <a href="https://zenn.dev/poclabweb/books/chemoinfomatics_theory_descriptor">
+    <img src="{{ site.baseurl }}/images/teaching/descriptor.png" alt="ケモインフォマティクス理論（化学記述子編）" style="width: 250px; height: auto;">
+  </a>
+  
+  <a href="https://zenn.dev/poclabweb/books/chemoinfomatics_theory_machinelearning">
+    <img src="{{ site.baseurl }}/images/teaching/machinelearning.png" alt="ケモインフォマティクス理論（機械学習編）" style="width: 250px; height: auto;">
+  </a>
+</div>
 
 ### 🎓 所属大学、大学院での担当講義
 
