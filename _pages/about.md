@@ -1,31 +1,20 @@
 ---
 permalink: /
-title: "Physical Organic Chemistry Labolatory(POCLAB)"
+title: "Welcome to POCLAB since 2018 "
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Welcome to POCLAB
-physical organic chemistry labolatory since 2018 
-
-私たちは、**化学構造の情報を整理し世界中の人々がアクセスして使えるようにしていきます**。
-
-# 📄 研究室紹介
-
-POCLabの「POC」は次を意味します:
+私たちは、**化学と情報科学**の交差点で研究を行うグループです。データ駆動型のアプローチを通じて、新しい分子と材料の発見と設計を加速することを目指し、**化学構造の情報を整理し世界中の人々がアクセスして使えるようにしていきます。**POCLabの「POC」は次を意味します:
 
 - **Passion for Originality and Creativity(独創性と創造性への情熱)** 
 - **Proof of Concept (概念実証)** 
 - **Physical Organic Chemistry(物理有機化学)** 
  
-私たちは、**化学と情報科学**の交差点で研究を行うグループです。
-データ駆動型のアプローチを通じて、新しい分子と材料の発見と設計を加速することを目指しています。
 
-![POCLAB研究室紹介]({{ site.baseurl }}/images/labintro-preview.png)
-
-### [📥 研究室紹介PDFをダウンロード]({{ site.baseurl }}/files/labintro.pdf){: .btn .btn--success .btn--large}
+[![POCLAB研究室紹介]({{ site.baseurl }}/images/labintro-preview.png)]({{ site.baseurl }}/files/labintro.pdf)
 
 ---
 
@@ -114,7 +103,7 @@ POCLabの「POC」は次を意味します:
 私たちは化学に情報科学を融合し、世界に新しい価値を生み出す研究拠点となることを目指しています。私たちの研究が次の重要分野に革新的な波及効果をもたらし、社会全体の発展に寄与することを目指しています：
 
 <details>
-  <summary>🧪 科学コミュニティ</summary>
+  <summary>🧪 化学コミュニティ</summary>
   
 データ駆動型化学の推進により、国際的な研究連携が促進され、新しい方法論や知識基盤の共有が進むと期待されます。
 

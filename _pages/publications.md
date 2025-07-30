@@ -7,7 +7,7 @@ author_profile: true
 
 # 研究業績
 
-以下のサイトで更新しています。
+以下のサイトで更新しています。ORCIDの更新が最も早いです。
 
 ## ORCID
 
@@ -15,19 +15,17 @@ author_profile: true
 
 ## Google Scholar
 
-- [Hiroaki Gotoh](https://scholar.google.co.jp/citations?user=R-J5YZsAAAAJ&hl=ja&oi=ao)
-
-## 横浜国立大学研究者総覧
-
-- [https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ja.html](https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ja.html)
-
-## researchmap
-
-- [https://researchmap.jp/7000002974](https://researchmap.jp/7000002974)
+- [Gotoh Hiroaki](https://scholar.google.co.jp/citations?user=R-J5YZsAAAAJ&hl=ja&oi=ao)
 
 ## Web of Science
 
 - [https://www.webofscience.com/wos/author/record/V-8146-2019](https://www.webofscience.com/wos/author/record/V-8146-2019)
 
+## 横浜国立大学研究者総覧
 
+- [https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ronbn_1_ja.html](https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ronbn_1_ja.html)
+
+## researchmap
+
+- [https://researchmap.jp/7000002974](https://researchmap.jp/7000002974)
 

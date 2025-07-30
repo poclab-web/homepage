@@ -3,6 +3,7 @@ title: "機械学習や量子化学計算を用いた機能性材料の探索"
 excerpt: "計算化学と機械学習を融合した手法により、新規機能性材料の設計・予測・最適化を目指す<br/>
 <img src='../images/500x300.png'>"
 collection: portfolio
+published: false
 ---
 
 ## プロジェクト概要

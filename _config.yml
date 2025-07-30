@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "POCLAB - Physical Organic Chemistry Laboratory"
+title                    : "POCLab"
 title_separator          : "-"
 name                     : &name "POCLAB"
 description              : &description "Physical Organic Chemistry Laboratory - Research and Development"
@@ -25,7 +25,7 @@ author:
   avatar           : "poclab-logo.png"
   # name             : "POCLAB"
   # pronouns         : # example: "she/her"  
-  bio              : "Physical Organic Chemistry Laboratory"
+  # bio              : "Physical Organic Chemistry Laboratory"
   location         : "Yokohama, Japan"
   employer         : "Yokohama National University"
   uri              : "https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ja.html"

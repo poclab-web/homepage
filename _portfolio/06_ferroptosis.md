@@ -3,6 +3,7 @@ title: "Ferroptosis"
 excerpt: "化合物スクリーニングによってフェロプトーシス阻害活性と有望な治療ポテンシャルを探索する<br/>
 <img src='../images/500x300.png'>"
 collection: portfolio
+published: false
 ---
 
 ## 💊研究概要

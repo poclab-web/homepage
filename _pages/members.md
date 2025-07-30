@@ -5,17 +5,16 @@ permalink: /members/
 author_profile: true
 ---
 
-## 研究室メンバー
-### メンバー
+## 現在の大学研究室メンバー
 
 | Position| Name | 
 |------|------|
 | PI | [gotoh hiroaki]({{ site.baseurl }}/members/gotoh-hiroaki/) |
-| D2 | [sakaguchi daimon]({{ site.baseurl }}/members/sakaguchi-daimon/) | 
+| D2 | sakaguchi daimon| 
 | D2| matsumoto yuuto | 
 | M2 | kawasaki taisei |
 | M2 | shimono masaki |
-| M2 | [nishii takafumi]({{ site.baseurl }}/members/nishii-takafumi/)|
+| M2 | nishii takafumi|
 | M1 | ichizawa kaname |
 | M1 | koide yuya |
 | M1 | takahata fuka |
@@ -27,7 +26,7 @@ author_profile: true
 
 ---
 
-## 過去の卒業生・修了生
+## 過去の大学卒業生・修了生
 
 2012年以降の学生(Sakakibara-Gotoh labの卒業生や修了生を含む)
 
@@ -117,3 +116,4 @@ author_profile: true
 - seto akira
 - saitou hiroki
 - toba ryuta
+
