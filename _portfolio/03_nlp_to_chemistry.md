@@ -1,7 +1,7 @@
 ---
 title: "自然言語処理技術を応用した化学情報のマルチモーダル学習と予測"
 excerpt: "言語情報による広範な定性情報を活用し、化学情報の予測精度向上を目指す<br/>
-<img src='../images/500x300.png'>"
+<img src='../images/portfolio/500x300.png'>"
 collection: portfolio
 published: false
 ---
