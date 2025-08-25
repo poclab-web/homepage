@@ -1,9 +1,9 @@
 ---
 title: "機械学習や量子化学計算を用いた機能性材料の探索"
 excerpt: "計算化学と機械学習を融合した手法により、新規機能性材料の設計・予測・最適化を目指す<br/>
-<img src='../images/500x300.png'>"
+<img src='../images/portfolio/MQM-information.png' width='500' height='300'>"
 collection: portfolio
-published: false
+published: true
 ---
 
 ## プロジェクト概要
@@ -33,8 +33,8 @@ published: false
 ### 🔬 **実験・計算アプローチ**
 
 #### **理論計算手法**
-1. **量子化学計算**: Gaussian, ORCA等を用いたDFT計算
-2. **分子動力学**: 溶液中での分子挙動の解析
+1. **半経験手法** : xTBを用いた構造最適化
+2. **量子化学計算**: Gaussian, pyscf等を用いたDFT計算
 3. **励起状態計算**: TD-DFT法による光学特性の予測
 
 #### **機械学習手法**
