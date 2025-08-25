@@ -1,7 +1,7 @@
 ---
 title: "有機合成における新規データ駆動的アプローチの探索"
 excerpt: "フェノールの酸化的ホモカップリング反応をテーマ反応とし、有機合成実験を効率化する新たなデータ駆動的アプローチを探索する<br/>
-<img src='../images/portfolio/pu_image.png'>"
+<img src='../images/portfolio/pu_image.png' width='500' height='300'>"
 collection: portfolio
 published: true
 ---
@@ -23,7 +23,7 @@ published: true
 私たちは酸化的ホモカップリングにおいて、特定反応条件下における基質（フェノール分子）の反応性を **Positive and Unlabeled Machine Learning (PU learning)** という機械学習手法を用いて予測を試みた（研究テーマ１）。また、報告されている反応条件の基質適用範囲を定量化する手法を提案した（研究テーマ２）。
 
 <div style="text-align:center">
- <img src="../images/phenols_homocoupling.png" width="50%">
+ <img src="{{ site.baseurl }}/images/phenols_homocoupling.png" width="50%">
 </div>
 
 
@@ -40,6 +40,8 @@ published: true
 近年の有機合成化学における反応開発では、論文で反応例として報告される基質の数は増加している。この傾向は、基質の数が反応の有用性を示す指標として用いられ、重視されている現状を反映している。
 しかし、基質の数が多くても類似した基質ばかりでは反応の有用性を示すことはできない。重視すべきなのは数ではなく多様性であるが、基質の多様性を定量化する方法は確立されていない。
 そこで、本研究では基質の多様性を定量化し、基質の数に代わる新たな反応条件の評価指標をつくることを目的とした。
+
+
 ### 🔬 **実験・計算アプローチ**
 
 
@@ -85,7 +87,7 @@ published: true
 
 
 ### :page_facing_up: **論文**
-- Nishii, T; Ichizawa, K; Nagano, H; Mukai, H; Sakaguchi, D; Gotoh, H. Predicting Substrate Reactivity in Oxidative Homocoupling of Phenols using Positive and Unlabeled Machine Learning. 2025年投稿予定.
+- Nishii, T; Ichizawa, K; Nagano, H; Mukai, H; Sakaguchi, D; Gotoh, H. Predicting Substrate Reactivity in Oxidative Homocoupling of Phenols using Positive and Unlabeled Machine Learning. (査読中).
 
 
 
