@@ -1,7 +1,7 @@
 ---
 title: "計算化学と機械学習の融合によるケトンの求核反応・還元反応の選択性の解析"
 excerpt: "ケトン基の求核反応・還元反応を対象として、量子化学計算により得られた遷移状態構造およびその相互作用領域の特徴を抽出し、機械学習モデルと組み合わせることで選択性の予測を行っています。さらに、相互作用特徴と反応性との関連を定量的に解析し、反応選択性の要因の理解を深化させています。<br/>
-src='../images/portfolio/QSSR_image.webp' width='500' height='300'>
+src='../images/portfolio/QSSR_image.png' width='500' height='300'>
 collection: portfolio
 published: true
 ---
@@ -56,7 +56,7 @@ published: true
 2. 還元選択性の予測
 　作成したモデルを用いて還元選択性を予測
 
-![competitive reaction abstruct]({{ site.baseurl }}/images/portfolio/competitive_reaction_abstruct.jpg)
+![competitive reaction abstruct]({{ site.baseurl }}/images/portfolio/competitive_reaction_abstruct.png)
 
 ### 🔍 **学術的・産業的意義**
 反応の本質を支配している立体電子状態の評価を軸として、遷移状態解析とデータ駆動的なアプローチを融合することで様々な基質や反応剤に対する反応選択性の網羅的な理解が可能にしています。
