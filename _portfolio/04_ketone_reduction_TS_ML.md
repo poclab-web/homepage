@@ -65,4 +65,3 @@ Dimensional Electronic States" (2025) submitted.
 - Sakaguchi, Daimon, and Hiroaki Gotoh. "Using Three-Dimensional Information to Predict and Interpret the Facial Selectivities of Nucleophilic Additions to Cyclic Ketones." Journal of Chemical Information and Modeling 64.8 (2024): 3213-3221.
 - Sakaguchi, Daimon, and Hiroaki Gotoh. "Quantification of steric hindrance by geometric calculation, prediction of the reductive selectivity of ketones, and clarification of reaction mechanism." (2022).
 ---
-
