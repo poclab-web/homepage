@@ -1,6 +1,6 @@
 ---
 title: "抗酸化物質の構造活性相関研究"
-excerpt: "ポリフェノールのチカラをデータで見える化-AIと計算化学で食品の抗酸化能を未来予測！-<br/>
+excerpt: "ポリフェノールのチカラをデータで見える化-AIと計算化学で食品の抗酸化能を未来予測を目指しています-<br/>
 <img src='../images/portfolio/food_informatics_flowchart.png' width='500' height='300'>"
 collection: portfolio
 published: true

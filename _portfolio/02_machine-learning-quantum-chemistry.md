@@ -1,6 +1,6 @@
 ---
 title: "機械学習や量子化学計算を用いた機能性材料の探索"
-excerpt: "計算化学と機械学習を融合した手法により、新規機能性材料の設計・予測・最適化を目指す<br/>
+excerpt: "計算化学と機械学習を融合した手法により、新規機能性材料の設計・予測・最適化を目指しています<br/>
 <img src='../images/portfolio/MQM-information.png' width='500' height='300'>"
 collection: portfolio
 published: true
@@ -68,12 +68,6 @@ published: true
 - GNNモデルによる分子物性値予測モデルの構築
 - 高コストなDFT計算を最適化するスクリーニングモデルの構築
 
-### 📄 **関連論文・発表**
-- "Naphthoic Acid Derivatives as Photosensitizers for Short-wavelength α-Hydroxyacetophenone Photoinitiators" Journal of Photopolymer Science and Technology (2024)
-- "Mechanism for the photodegradation of 9,10-dibutoxyanthracene in the presence of air" PLoS ONE (2022)
-- "Polymerization inhibition mechanism of 1, 4-naphthoquinone by experimentation and DFT calculations" Polymer Journal (2020)
-- 日本化学会年会での研究発表実績
-- 国際会議での成果報告
 
 ## 🚀今後の展開
 
@@ -91,14 +85,15 @@ published: true
 
 ## 関連論文
 
+- [Silyloxy-substituted anthraquinones as Type I photoinitiators for visible light-induced radical polymerization](https://www.nature.com/articles/s41428-024-01001-9)
+  *Polymer Journal*, 2025, 57, 513–526
+
+
 - [Naphthoic Acid Derivatives as Photosensitizers for Short-wavelength α-Hydroxyacetophenone Photoinitiators](https://www.jstage.jst.go.jp/article/photopolymer/37/1/37_135/_article/-char/ja/)  
-  *Journal of Photopolymer Science and Technology*, 2024, Vol. 37, No. 1, pp. 135-140
+  *Journal of Photopolymer Science and Technology*, 2024, 37, 135-140
 
 - [Mechanism for the photodegradation of 9,10-dibutoxyanthracene in the presence of air](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0263526)
   *PLoS ONE*, 2022, 17(3): e0263526
   
-- [Polymerization inhibition mechanism of 1, 4-naphthoquinone by experimentation and DFT calculations](https://www.nature.com/articles/s41428-019-0206-3)
-  *Polymer Journal*, 2020, 52, 499–507
-
-- [関連研究論文 (Nature Polymer Journal)](https://www.nature.com/articles/s41428-019-0206-3)  
-  *Polymer Journal*, Nature Publishing Group
+- [Polymerization inhibition mechanism of 1,4-naphthoquinone by experimentation and DFT calculations](https://www.nature.com/articles/s41428-019-0206-3)  
+  *Polymer Journal*, 2019, 51, 929–934
