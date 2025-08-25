@@ -23,6 +23,8 @@ published: true
 - 理論的に記述が困難な要素には経験的なパラメータを導入し、データ駆動的に最適化
 - これまで困難だった体系的な反応選択性の理解に成功!
 
+![nucleophilic addition abstruct]({{ site.baseurl }}/images/portfolio/nucleophilic_addition_abstruct.png)
+
 ### 2. ケトンの不斉還元反応の選択性解析
 #### 研究内容
 - ケトン基質の触媒による遷移状態構造を用いた相互作用解析機械学習モデルの開発
