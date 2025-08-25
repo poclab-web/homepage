@@ -10,7 +10,9 @@ published: true
 
 ## プロジェクト概要
 有機合成化学において機械学習等のデータ駆動的アプローチを適用し、反応最適化や目的物の収率予測を試みた先行研究は多く存在する。私たちは、既存手法の課題に基づき、有機合成を効率化する新たなデータ駆動的アプローチを模索している。
+
 新規アプローチを試験するため、私たちはテーマ反応としてフェノールの酸化的ホモカップリングを選んだ。選択背景は以下の通りである。
+
 
 (1) 目的物のビフェノール類は生理活性分子を多く含む有用な化合物群であること。
 
@@ -20,13 +22,12 @@ published: true
 
 (4) 基質適用範囲の異なる様々な反応条件が報告されており、盛んに研究されている反応であること。
 
+
 私たちは酸化的ホモカップリングにおいて、特定反応条件下における基質（フェノール分子）の反応性を **Positive and Unlabeled Machine Learning (PU learning)** という機械学習手法を用いて予測を試みた（研究テーマ１）。また、報告されている反応条件の基質適用範囲を定量化する手法を提案した（研究テーマ２）。
 
 <div style="text-align:center">
  <img src="{{ site.baseurl }}/images/phenols_homocoupling.png" width="50%">
 </div>
-
-
 
 ## 研究内容
 
@@ -45,17 +46,21 @@ published: true
 ### 🔬 **実験・計算アプローチ**
 
 
+
 #### :abacus: **理論計算手法**
 1. **Gaussian 16**: 量子化学計算 (構造最適化, エネルギー計算)
+
 2. **RDKit**: RDKitを用いた特徴量算出
 3. **ECFP**: 既存の手法との比較
 4. **Python**: 計算自動化プログラムの作成
+
 
 #### :brain: **機械学習手法**
 1. **効率的なデータ収集**: :globe_with_meridians: <span style="color: #03af7a;">PubChem, ChEMBL, ChEBI, CAS SciFinder</span> with Python, pandas, RDKit
 2. **特徴量エンジニアリング**: 分子記述子の選択・最適化
 3. **分類**: Random Forest, Decision Tree, SVM etc.
 4. **次元削減**: PCA, UMAP 
+
 
 #### :alembic: **実験検証**
 1. **有機合成**: フェノール類の酸化的カップリングのデータ収集
@@ -66,12 +71,12 @@ published: true
 
 ## 研究成果
 
-
 ### :bar_chart: **達成された成果**
 
 #### 1. **PU learning を用いた反応予測**
 - 量子化学計算を用いてフェノール類分子の反応性を表現
 - PU learning を用いることで、負例が入手不可能な実験データから反応性を予測することに成功
+
 
 #### 2. **基質適用範囲の定量的評価**
 - 基質適用範囲を基質の多様性の観点から定量化 :eyes:
@@ -85,15 +90,13 @@ published: true
 - 西井 崇文, 一澤 要守, 長野 遥, 坂口 大門, 五東 弘昭. PUラーニングを用いたフェノールの酸化的ホモカップリングにおける反応条件の基質適用範囲の予測と解釈. [第14回 CSJ化学フェスタ2024](https://festa.csj.jp/2024/), 2024.10.23, 東京, P4-040.
 - 一澤 要守, 西井 崇文, 長野 遥, 坂口 大門, 五東 弘昭. フェノール類の酸化的カップリングにおける反応条件の基質適用範囲の評価と予測. [日本コンピュータ化学会2024年秋季年会](https://touche-np.org/sccj), 2024.10.20, 室蘭, P108.
 
-
 ### :page_facing_up: **論文**
 - Nishii, T; Ichizawa, K; Nagano, H; Mukai, H; Sakaguchi, D; Gotoh, H. Predicting Substrate Reactivity in Oxidative Homocoupling of Phenols using Positive and Unlabeled Machine Learning. (査読中).
-
-
 
 ## 今後の展開
 
 ### :rocket: **次のステップ**
+
 
 1. **その他の反応系への応用**: ホモカップリングだけでなくクロスカップリングも、さらには教科書に載っている人名反応などにも応用していく。
 2. **分子特性予測と反応性予測の融合**: 有用な特性を持つ分子の予測とそれらの合成可能性の予測を組み合わせ、さらに効率的な実験が可能になる。

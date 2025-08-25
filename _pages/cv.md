@@ -21,8 +21,7 @@ redirect_from:
 
 ## 連絡先
 ======
-### 教授 後藤 寛明
-- **メール**: [研究に関するお問い合わせ](mailto:contact@poclab.example.org)
+### 　Hiroaki Gotoh
 - **研究者総覧**: [横浜国立大学研究者総覧](https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ja.html)
 - **ResearchMap**: [研究者情報](https://researchmap.jp/7000002974)
 - **Google Scholar**: [論文情報](https://scholar.google.com/citations?user=R-J5YZsAAAAJ&hl=en)
@@ -39,11 +38,12 @@ redirect_from:
 - 桜木町駅から市営バス「202系統」で「岡沢町」下車 徒歩3分
 
 ## 研究室見学
-======
+
 研究室の見学や進学相談をご希望の方は、事前にメールでお問い合わせください。
+連絡先は、 [横浜国立大学研究者総覧](https://er-web.ynu.ac.jp/html/GOTO_Hiroaki/ja.html)をご覧ください。
 
 ### 見学可能時間
-- **平日**: 9:00-17:00（事前予約制）
+- **平日**: 10:00-17:00（事前予約制）
 - **土日祝**: 要相談
 
 ### 見学内容
