@@ -3,7 +3,7 @@ title: "有機合成における新規データ駆動的アプローチの探索
 excerpt: "フェノールの酸化的ホモカップリング反応をテーマ反応とし、有機合成実験を効率化する新たなデータ駆動的アプローチを探索する<br/>
 <img src='../images/portfolio/pu_image.png'>"
 collection: portfolio
-published: false
+published: true
 ---
 
 
