@@ -1,7 +1,7 @@
 ---
 title: "計算化学と機械学習の融合によるケトンの求核反応・還元反応の選択性の解析"
 excerpt: "ケトン基の求核反応・還元反応を対象として、量子化学計算により得られた遷移状態構造およびその相互作用領域の特徴を抽出し、機械学習モデルと組み合わせることで選択性の予測を行っています。さらに、相互作用特徴と反応性との関連を定量的に解析し、反応選択性の要因の理解を深化させています。<br/>
-src='../images/portfolio/QSSR_image.png' width='500' height='300'>
+<img src='../images/portfolio/QSSR_image.png' width='500' height='300'>"
 collection: portfolio
 published: true
 ---
@@ -68,4 +68,5 @@ Dimensional Electronic States" (2025) submitted.
 - 坂口大門, 五東弘昭. "立体電子状態の定量評価による求核反応の面選択性の起源の解明." Journal of Computer Chemistry, Japan 24.1 (2025): A18-A24.
 - Sakaguchi, Daimon, and Hiroaki Gotoh. "Using Three-Dimensional Information to Predict and Interpret the Facial Selectivities of Nucleophilic Additions to Cyclic Ketones." Journal of Chemical Information and Modeling 64.8 (2024): 3213-3221.
 - Sakaguchi, Daimon, and Hiroaki Gotoh. "Quantification of steric hindrance by geometric calculation, prediction of the reductive selectivity of ketones, and clarification of reaction mechanism." (2022).
+
 ---
