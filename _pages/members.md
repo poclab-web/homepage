@@ -23,6 +23,7 @@ author_profile: true
 | B4 | itakura mayu |
 | B4 | kato riku |
 | B4 | watanabe kakeru |
+| B2 | nagata takeya |
 
 ---
 
