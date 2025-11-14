@@ -7,6 +7,8 @@ author_profile: true
 
 ## 現在の大学研究室メンバー
 
+![group photo 20025 11]({{ site.baseurl }}/images/member/group_photo/2025_11.png)
+
 | Position| Name | 
 |------|------|
 | PI | [gotoh hiroaki]({{ site.baseurl }}/members/gotoh-hiroaki/) |
@@ -23,6 +25,10 @@ author_profile: true
 | B4 | itakura mayu |
 | B4 | kato riku |
 | B4 | watanabe kakeru |
+| B3 | oishi tomoki |
+| B3 | tsuboi kazuma|
+| B3 | yoshioka tatsuki |
+| B2 | nagata takeya |
 
 ---
 
