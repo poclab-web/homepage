@@ -1,6 +1,6 @@
 ---
 title: "機械学習や量子化学計算を用いた機能性材料の探索"
-excerpt: "計算化学と機械学習を融合した手法により、新規機能性材料の設計・予測・最適化を目指しています<br/>
+excerpt: "計算化学と機械学習を融合した手法により、新規機能性材料の設計・予測・最適化を目指す<br/>
 <img src='../images/portfolio/MQM-information.png' width='500' height='300'>"
 collection: portfolio
 published: true
@@ -30,12 +30,18 @@ published: true
 - 深層学習による構造-活性相関の予測
 - ベイズ最適化による効率的な分子設計
 
+#### 4. **機械学習・MD計算を活用した新規高分子材料の探索**
+- モノマー情報とポリマー物性の相関解析
+- 機械学習とMD計算のハイブリッド化で予測の高速化
+- MD計算が現実的でない物性の予測
+
 ### 🔬 **実験・計算アプローチ**
 
 #### **理論計算手法**
-1. **半経験手法** : xTBを用いた構造最適化
-2. **量子化学計算**: Gaussian, pyscf等を用いたDFT計算
-3. **励起状態計算**: TD-DFT法による光学特性の予測
+1. **分子動力学計算**: MD計算による分子物性の予測
+2. **半経験手法** : xTBを用いた一点計算、構造最適化、振動計算、CRESTを用いた配座探索・交差点の探索
+3. **量子化学計算**: Gaussian, pyscf等を用いたDFT計算
+4. **励起状態計算**: TD-DFT法による光学特性の予測
 
 #### **機械学習手法**
 1. **特徴量エンジニアリング**: 分子記述子の最適化
@@ -46,7 +52,7 @@ published: true
 1. **FTIR分光法**: 重合反応の進行度評価
 2. **UV-Vis分光法**: 光吸収特性の測定
 3. **蛍光消光実験**: 分子間相互作用の解析
-4. **photo-DCS** : 重合開始性能評価
+4. **photo-DSC** : 重合開始性能評価
 
 ## 研究成果
 
@@ -68,6 +74,12 @@ published: true
 - GNNモデルによる分子物性値予測モデルの構築
 - 高コストなDFT計算を最適化するスクリーニングモデルの構築
 
+### 📄 **関連論文・発表**
+- "Naphthoic Acid Derivatives as Photosensitizers for Short-wavelength α-Hydroxyacetophenone Photoinitiators" Journal of Photopolymer Science and Technology (2024)
+- "Mechanism for the photodegradation of 9,10-dibutoxyanthracene in the presence of air" PLoS ONE (2022)
+- "Polymerization inhibition mechanism of 1, 4-naphthoquinone by experimentation and DFT calculations" Polymer Journal (2020)
+- 日本化学会年会での研究発表実績
+- 国際会議での成果報告
 
 ## 🚀今後の展開
 
@@ -75,6 +87,7 @@ published: true
 1. **AI駆動型材料設計**: オートエンコーダ等を用いた新規分子構造の提案
 2. **高スループット計算**: 大規模並列計算による物性データベース構築
 3. **実験との融合**: 合成品の実験値を測定、生成モデルにフィードバックし、生成精度向上を目指す
+4. **高分子物性予測モデルの開発**: モノマー情報のみでポリマーの各種物性の予測を目指す
 
 ### **応用展開**
 1. **3Dプリンティング材料**: 高精度造形用光硬化樹脂の開発
@@ -83,17 +96,26 @@ published: true
 
 この研究により、従来の経験に依存した材料開発から、理論と機械学習に基づく予測的材料設計への転換を目指しています。
 
+## 学会発表
+- 渡辺 裕也、宇都口 真彦、関澤 拓也、檜森 俊一、山田 暁彦、五東 弘昭, 量子化学計算及び機械学習を用いた新規光重合開始剤であるオキシムエステルの設計及び開発,第14回CSJ化学フェスタ(P9-015)
+
+- 渡邉翔琉、髙畑風花、長野遥、檜森俊一、山田暁彦、五東弘昭, 量子化学計算及び機械学習を用いた新規光重合開始剤の探索,第15回CSJ化学フェスタ(P3-005)
+
+
 ## 関連論文
 
-- [Silyloxy-substituted anthraquinones as Type I photoinitiators for visible light-induced radical polymerization](https://www.nature.com/articles/s41428-024-01001-9)
-  *Polymer Journal*, 2025, 57, 513–526
-
-
 - [Naphthoic Acid Derivatives as Photosensitizers for Short-wavelength α-Hydroxyacetophenone Photoinitiators](https://www.jstage.jst.go.jp/article/photopolymer/37/1/37_135/_article/-char/ja/)  
-  *Journal of Photopolymer Science and Technology*, 2024, 37, 135-140
+  *Journal of Photopolymer Science and Technology*, 2024, Vol. 37, No. 1, pp. 135-140
 
 - [Mechanism for the photodegradation of 9,10-dibutoxyanthracene in the presence of air](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0263526)
   *PLoS ONE*, 2022, 17(3): e0263526
   
-- [Polymerization inhibition mechanism of 1,4-naphthoquinone by experimentation and DFT calculations](https://www.nature.com/articles/s41428-019-0206-3)  
-  *Polymer Journal*, 2019, 51, 929–934
+- [Polymerization inhibition mechanism of 1, 4-naphthoquinone by experimentation and DFT calculations](https://www.nature.com/articles/s41428-019-0206-3)
+  *Polymer Journal*, 2020, 52, 499–507
+
+- [関連研究論文 (Nature Polymer Journal)](https://www.nature.com/articles/s41428-019-0206-3)  
+  *Polymer Journal*, Nature Publishing Group
+
+## 関連特許
+
+- US12065521B2[Compound having polycyclic aromatic skeleton, and endoperoxide compound of same](https://patents.google.com/patent/US12065521B2/en)
