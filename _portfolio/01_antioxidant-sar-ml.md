@@ -34,12 +34,12 @@ published: true
 ### 2. 構造情報の数値化（Food Informatics）
 
 - 化学構造を記述子に変換（分子記述子、量子化学パラメータ）
-- BDE、HOMO、イオン化ポテンシャルなどを計算
+- 結合乖離エネルギー(BDE)、HOMO、イオン化ポテンシャル(IP)などを計算
 - 構造‐活性の関係を可視化（クラスタリング、化学空間マップ）
 
 ### 3. 機械学習による抗酸化能予測モデル
 
-- 小規模データでも機能するアルゴリズム（XGBoost, 転移学習など）
+- 小規模データでも機能するアルゴリズム（軽量型のモデル(XGBoostなど), 転移学習など）
 - 特徴量選択とSHAP解析による説明可能な予測モデルの構築
 - WEBアプリとして公開を目指しています（例：[DPPH予測アプリ](https://dpph-prediction.streamlit.app/)）
 
@@ -91,3 +91,17 @@ published: true
 
 - [Singlet-Oxygen-Scavenging Activity of Small Molecule Compounds by Using Machine Learning](https://www.mdpi.com/2076-3921/10/11/1751)  
   *Antioxidants*, 2021, Vol. 10, No. 11, pp. 1751
+
+## 学会発表(2025年度)
+
+- Takafumi Nishii, Chihiro Tada, Kaname Ichizawa, Takujiro Homma, and Hiroaki Gotoh  
+  **Efficient Discovery of Ferroptosis Inhibitors in the Biphenol Space via Synthetic Feasibility Prediction using Positive-Unlabeled Machine Learning**(CBI学会2025年大会)
+
+- 多田知弘, 加藤琉久, 西井崇文, 本間拓二郎, 五東弘昭  
+  **量子化学計算・実験化学・細胞実験を統合したフェロトーシス阻害剤の探索**(第15回CSJ化学フェスタ)
+
+- 加藤琉久, 多田知弘, 山内萌衣花, 五東弘昭.  
+  **DPPH測定と機械学習を用いたフェノール類の抗酸化能予測**(第15回CSJ化学フェスタ)
+
+## 研究費
+- 抗酸化性を示す食品成分の解明と網羅的予測([KAKEN 24K08785](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-24K08785/))
