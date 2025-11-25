@@ -8,8 +8,7 @@ published: true
 
 ## プロジェクト概要
 
-現代の材料科学において、従来の試行錯誤的な研究手法から脱却し、理論計算と機械学習を組み合わせた予測的アプローチが注目されています。本プロジェクトでは、量子化学計算によって得られる分子の電子構造情報と機械学習アルゴリズムを融合し、機能性物質の効率的な探索と設計を行っています。
-
+現代の材料科学において、従来の試行錯誤的な研究手法から脱却し、理論計算と機械学習を組み合わせた予測的アプローチが注目されています。本プロジェクトでは、量子化学計算によって得られる分子の電子構造情報・吸光特性と機械学習アルゴリズムを融合し、機能性物質の効率的な探索と設計を行っています。
 
 ## 研究内容
 
@@ -73,13 +72,6 @@ published: true
 - 言語モデルによる分子生成
 - GNNモデルによる分子物性値予測モデルの構築
 - 高コストなDFT計算を最適化するスクリーニングモデルの構築
-
-### 📄 **関連論文・発表**
-- "Naphthoic Acid Derivatives as Photosensitizers for Short-wavelength α-Hydroxyacetophenone Photoinitiators" Journal of Photopolymer Science and Technology (2024)
-- "Mechanism for the photodegradation of 9,10-dibutoxyanthracene in the presence of air" PLoS ONE (2022)
-- "Polymerization inhibition mechanism of 1, 4-naphthoquinone by experimentation and DFT calculations" Polymer Journal (2020)
-- 日本化学会年会での研究発表実績
-- 国際会議での成果報告
 
 ## 🚀今後の展開
 
