@@ -3,7 +3,7 @@ title: "自然言語処理を応用した化学情報の予測"
 excerpt: "〜 広範な定性情報である言語情報を活用し、分子の化学的特性の予測精度向上を目指す 〜<br/>
 <img src='../images/portfolio/NLP_Thumbnail.png' width='500' height='300'>"
 collection: portfolio
-published: false
+published: true
 ---
 
 ## プロジェクト概要
