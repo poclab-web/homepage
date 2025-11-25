@@ -71,6 +71,9 @@ published: true
 
 ## 関連論文
 
+- [Identification of a novel tetrahydroxynaphthalene derivative by chemical screening with ferroptosis inhibitory activity and promising therapeutic potential](https://www.tandfonline.com/doi/abs/10.1080/10715762.2025.2497033)  
+  *Free Radical Research*, 2025
+
 - [Kinetic and thermodynamic evaluation of antioxidant reactions: factors influencing the radical scavenging properties of phenolic compounds in foods](https://scijournals.onlinelibrary.wiley.com/doi/10.1002/jsfa.70080)  
   *Journal of the Science of Food and Agriculture*, 2025
 
