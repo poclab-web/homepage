@@ -20,7 +20,7 @@ author_profile: true
 | M1 | ichizawa kaname |
 | M1 | koide yuya |
 | M1 | takahata fuka |
-| M1 | tada chihiro |
+| M1 | [tada chihiro]({{ site.baseurl }}/members/tada-chihiro/) |
 | B4 | mukai hiroya |
 | B4 | itakura mayu |
 | B4 | kato riku |
