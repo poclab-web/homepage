@@ -33,8 +33,8 @@ published: true
        alt=""
        style="max-width:520px; width:50%; height:auto; display:block; margin:0 auto;">
 </div>
+<br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*特定骨格における吸光特性の最適化*
 
 - ベイズ最適化による効率的な分子設計
 <div style="width:50%; display:block; text-align:center; margin:24px 0;">
@@ -56,20 +56,22 @@ published: true
        alt=""
        style="max-width:520px; width:50%; height:auto; display:block; margin:0 auto;">
 </div>
+<br><br>
 
 ### 🔬 **実験・計算アプローチ**
 
 #### **理論計算手法**
-1. **分子動力学計算**: MD計算による分子物性の予測
-2. **半経験手法** : xTBを用いた一点計算、構造最適化、振動計算、CRESTを用いた配座探索・交差点の探索
-3. **量子化学計算**: Gaussian, pyscf等を用いたDFT計算
-4. **励起状態計算**: TD-DFT法による光学特性の予測
-
 <div style="width:50%; display:block; text-align:center; margin:24px 0;">
   <img src="../images/portfolio/02/calculation.png"
        alt="calculation_methods"
        style="max-width:520px; width:50%; height:auto; display:block; margin:0 auto;">
 </div>
+
+1. **分子動力学計算**: MD計算による分子物性の予測
+2. **半経験手法** : xTBを用いた一点計算、構造最適化、振動計算、CRESTを用いた配座探索・交差点の探索
+3. **量子化学計算**: Gaussian, pyscf等を用いたDFT計算
+4. **励起状態計算**: TD-DFT法による光学特性の予測
+
 
 #### **機械学習手法**
 1. **特徴量エンジニアリング**: 分子記述子の最適化
