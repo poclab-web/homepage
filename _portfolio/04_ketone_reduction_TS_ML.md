@@ -15,67 +15,39 @@ published: true
 
 ## 研究テーマ
 ### 1. ケトンの求核反応の面選択性予測
-### 研究内容
-- 分子の電子状態と反応選択性の間の関係を解明する新しい手法を開発
-- 本手法を用いて 323個の反応の選択性の定量的な予測に成功
-- 天然物や医薬品分子の設計への応用が期待される
+---
+
+本研究では、分子の電子状態と反応選択性との相関を定量的に記述する新しい手法が開発され、その枠組みによって 323 個の反応に対する面選択性を高精度に予測することに成功しています。提案されたアプローチは、天然物合成や医薬品化学における立体選択的変換の設計指針としても応用可能であり、実用的な反応設計ツールとしての拡張性が高いと評価できます。
+
 ### 🔬 **研究手法・アプローチ**
-- 反応性と電子状態の関係(Salem-Klopman式)をもとに、立体電子状態を評価する手法を開発
-- 理論的に記述が困難な要素には経験的なパラメータを導入し、データ駆動的に最適化
-- これまで困難だった体系的な反応選択性の理解に成功!
+
+研究手法は、Salem–Klopman 式に基づく反応性理論を出発点として、求核攻撃点における立体電子的要因を定量化することで特徴づけられます。理論的扱いが難しい寄与については経験的パラメータを導入し、それらをデータ駆動的に最適化することで、従来は困難とされてきた複雑な選択性要因を体系的に理解する枠組みを構築しています。この結果、電子状態に根ざした反応選択性の予測精度が大幅に向上し、幅広い反応系に対して汎用的に適用できる方法論として確立されています。
+
 
 ![nucleophilic addition abstruct]({{ site.baseurl }}/images/portfolio/nucleophilic_addition_abstruct.png)
 
 ### 2. ケトンの不斉還元反応の選択性解析
 ---
-#### 研究の流れ
-- **(1) 反応データの収集**
-  3 種類の触媒について、**ケトンの不斉還元反応**を集め、
-  その選択性（R / S のどちらができやすいか）を整理しました。
-<br>
-- **(2) ケトンの電子構造を調べる**
-  反応する前のケトン分子(300種類)に対して、
-  **電子密度**（[`electron density`](#electron-density "分子のどこに電子が多いかを表す物理量")）や
-  **静電ポテンシャル**（[`electrostatic potential`](#esp "分子のまわりの電荷の配置によって決まるポテンシャル")）を計算しました。
-  これらは、分子が「どんな電子的性質を持っているか」を表す指標です。
-<br>
-- **(3) 分子の“3Dの特徴”から学習する**
-  分子の周りの立体的・電子的な環境をそのまま扱える
-  **[CoMFA](#comfa "分子の周囲の電場・立体的な性質を3Dグリッドで扱う手法")**という手法を使って、
-  分子の 3 次元的な情報を機械学習モデルに入力しました。
-<br>
-- **(4) 選択性を予測するモデルの構築**
-  その結果、**300 件のケトン反応**について、
-  どちらの生成物ができやすいかを高い精度で予測できました。
-<br>
-- **(5) 遷移状態を量子化学で調べる**
-  さらに、反応の途中の構造（＝遷移状態）を
-  **DFT 計算**（[`DFT`](#dft "電子密度を基礎にした量子化学計算手法")）で求め、
-  反応中に働く弱い相互作用を
-  **NCI**（[`NCI`](#nci "弱い相互作用を電子密度から可視化する手法")）や
-  **SAPT**（[`SAPT`](#sapt "相互作用エネルギーを成分ごとに分けて調べる理論")）で解析しました。
-  これにより、**どの相互作用が選択性に効いているのか**をより詳しく理解できました。
----
+この研究では、まず 3 種類の触媒を対象にケトンの不斉還元反応を幅広く収集し、それぞれの反応で R 体と S 体のどちらが優先的に生成するかという選択性を整理しました。
+### 🔬 **研究手法・アプローチ**
+反応前のケトン分子 300 種類について電子密度（[`electron density`](#electron-density "分子のどこに電子が多いかを表す物理量")）や静電ポテンシャル（[`electrostatic potential`](#esp "分子のまわりの電荷の配置によって決まるポテンシャル")）を計算し、分子の電子的性質を詳細に把握しました。これらの電子構造情報を基盤に、分子の周囲の立体的・電子的な特徴を三次元グリッドとして扱える [CoMFA](#comfa "分子の周囲の電場・立体的な性質を3Dグリッドで扱う手法") を用い、分子の三次元的な特徴量をそのまま機械学習モデルに入力することで、構造と選択性の関係を学習させました。このプロセスによって構築したモデルは、300 件のケトン反応について生成物の向き（R 体／S 体）の違いを高い精度で予測できるようになりました。さらに、反応途中の構造である遷移状態を [`DFT`](#dft "電子密度を基礎にした量子化学計算手法") 計算により求め、その構造の中で働く弱い相互作用を [`NCI plot`](#nci "弱い相互作用を電子密度から可視化する手法") や [`SAPT`](#sapt "相互作用エネルギーを成分ごとに分けて調べる理論") 法で解析しました。これにより、どの相互作用が選択性に寄与しているのかをより詳細に把握することができ、不斉選択性の起源を分子レベルで解明するための理解が深まりました。
+
+
 
 ![asymmetric reduction analysis abstruct]({{ site.baseurl }}/images/portfolio/shimono_abstruct.png)
 
 ### 3. 競争反応実験を用いた反応性の収集
-### 研究内容
-- 競争反応を用いたケトンの還元選択性の定量実験法の開発
-- 機械学習を用いて2つのケトン基をもつ分子(ジケトン)の還元選択性(位置選択性＆面選択性)を予測
-### :microscope: **研究手法・アプローチ**
-**実験手法**
-- 同一系内で2種類の基質を反応させる競争反応を用いてケトンの還元反応の反応速度のデータ(実験値)を取得
-**計算化学手法**
-1. 量子化学計算で分子の最も安定な立体構造を取得(=構造最適化)
-　 実験した基質の構造を構造最適化
-2. 最適化された構造をもとに分子特性を抽出(=記述子計算)
-　 電荷や振動情報、3次元的な電子状態など(計算値)を取得
-**機械学習手法**
-1. 実験値と計算値のデータセットを機械学習
-　 反応速度(実験値)の予測モデルを作成
-2. 還元選択性の予測
-　 反応速度の予測モデルを用いてジケトンの還元選択性を予測
+
+この研究では、競争反応を利用してケトン還元反応の選択性を定量的に評価する実験手法を開発し、そのデータをもとに機械学習を用いてジケトン分子の位置選択性と面選択性の両方を予測することを目指しています。複数の反応経路が同一条件下で競合する状況を観測することで、個々の基質の反応性を直接的かつ体系的に取得できる点が特徴です。これにより、実験データと分子の電子的・幾何的特徴を包括的に関連づけた予測モデルの構築につながっています。
+
+### 🔬 **研究手法・アプローチ**
+
+実験面では、同一の反応条件下で二種類の基質を同時に反応させる競争反応法を用いて、ケトンの還元反応における相対的な反応速度の情報を取得しています。この手法は、絶対反応速度を測定するよりも簡便で再現性が高く、複数の基質の反応性を体系的に比較できる利点があります。
+
+計算化学の側面では、まず実験で用いた基質の構造を量子化学計算によって最安定構造へ最適化し、その構造を基盤として分子特性を抽出しています。これには電荷分布、振動特性、三次元的な電子状態などが含まれ、これらは反応性を理解する上で重要な情報として扱われています。
+
+機械学習のプロセスでは、実験から得られた反応速度と計算化学によって得られた分子記述子を組み合わせたデータセットを用いて予測モデルを構築しています。このモデルによって反応速度を予測し、その結果をもとにジケトンにおける還元の位置選択性と面選択性を予測するという体系的なアプローチを実現しています。
+
 
 ![competitive reaction abstruct]({{ site.baseurl }}/images/portfolio/competitive_reaction_abstruct.png)
 
@@ -83,11 +55,11 @@ published: true
 反応の本質を支配している立体電子状態の評価を軸として、遷移状態解析とデータ駆動的なアプローチを融合することで様々な基質や反応剤に対する反応選択性の網羅的な理解が可能にしています。
 
 ## 関連論文
-- Sakaguchi, Daimon, Kawasaki, Taisei, Itakura, Mayu, Tada, Chihiro, and Hiroaki Gotoh, "Competition Experiment-Based Kinetic Analysis of Ketone Reductions and Data-Driven Prediction of Regioselectivity" (2025) preparing.
-- Sakaguchi, Daimon, Shimono, Masaki, and Hiroaki Gotoh, "[Analysis of Asymmetric Reduction of Ketones Using Three-Dimensional Electronic States](https://doi.org/10.1021/acs.jpca.5c03510)" The Journal of Physical Chemistry A 129.39 (2025): 8945-8958.
-- 坂口大門, 五東弘昭. "[立体電子状態の定量評価による求核反応の面選択性の起源の解明](https://doi.org/10.2477/jccj.2024-0043)." Journal of Computer Chemistry, Japan 24.1 (2025): A18-A24.
-- Sakaguchi, Daimon, and Hiroaki Gotoh. "[Using Three-Dimensional Information to Predict and Interpret the Facial Selectivities of Nucleophilic Additions to Cyclic Ketones](https://doi.org/10.1021/acs.jcim.4c00101)." Journal of Chemical Information and Modeling 64.8 (2024): 3213-3221.
-- Sakaguchi, Daimon, and Hiroaki Gotoh. "Quantification of steric hindrance by geometric calculation, prediction of the reductive selectivity of ketones, and clarification of reaction mechanism." (2022).
+- Sakaguchi, Daimon, Kawasaki, Taisei, Itakura, Mayu, Tada, Chihiro, and Hiroaki Gotoh, "Competition Experiment-Based Kinetic Analysis of Ketone Reductions and Data-Driven Prediction of Regioselectivity." (2025) preparing.
+- Sakaguchi, Daimon, Shimono, Masaki, and Hiroaki Gotoh, "[Analysis of Asymmetric Reduction of Ketones Using Three-Dimensional Electronic States.](https://doi.org/10.1021/acs.jpca.5c03510)" The Journal of Physical Chemistry A 129.39 (2025): 8945-8958.
+- 坂口大門, 五東弘昭. "[立体電子状態の定量評価による求核反応の面選択性の起源の解明.](https://doi.org/10.2477/jccj.2024-0043)" Journal of Computer Chemistry, Japan 24.1 (2025): A18-A24.
+- Sakaguchi, Daimon, and Hiroaki Gotoh. "[Using Three-Dimensional Information to Predict and Interpret the Facial Selectivities of Nucleophilic Additions to Cyclic Ketones.](https://doi.org/10.1021/acs.jcim.4c00101)" Journal of Chemical Information and Modeling 64.8 (2024): 3213-3221.
+- Sakaguchi, Daimon, and Hiroaki Gotoh. "[Quantification of steric hindrance by geometric calculation, prediction of the reductive selectivity of ketones, and clarification of reaction mechanism.](https://doi.org/10.21203/rs.3.rs-1715167/v1)" (2022).
 
 ---
 ## 用語集
