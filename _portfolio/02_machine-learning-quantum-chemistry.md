@@ -41,7 +41,6 @@ published: true
 - 機械学習とMD計算のハイブリッド化で予測の高速化
 - MD計算が現実的でない物性の予測
 
-![]({{ site.baseurl }}/images/portfolio/02/yoshioka.png)
 
 ### 🔬 **実験・計算アプローチ**
 
