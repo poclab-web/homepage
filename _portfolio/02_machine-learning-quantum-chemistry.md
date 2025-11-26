@@ -28,13 +28,13 @@ published: true
 - 分子記述子と物性値の相関解析
 - 深層学習による構造-活性相関の予測
 - ベイズ最適化による効率的な分子設計
-<div style="text-align:center">
-  <img src="../images/portfolio/02/GA.png" width="50%" alt="GA">
-  <br>
-  <span style="font-size: 0.9em; color: #666;">
-    &nbsp;&nbsp;&nbsp;特定骨格における吸光特性の最適化
-  </span>
+<div style="width:50%; margin: 0 auto;">
+  <img src="../images/portfolio/02/GA.png" alt="GA" style="width:100%; display:block;">
+  <div style="margin-top: 8px; font-size: 0.9em; color:#666; text-align:left;">
+    特定骨格における吸光特性の最適化
+  </div>
 </div>
+
 
 
 #### 4. **機械学習・MD計算を活用した新規高分子材料の探索**
