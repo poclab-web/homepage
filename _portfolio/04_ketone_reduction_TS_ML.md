@@ -8,7 +8,7 @@ published: true
 
 
 ## プロジェクト概要
-有機化学において、反応の山場である遷移状態を量子化学計算で導出し、三次元的な電子的情報として扱うことは非常に重要です。これらを解析することで実験で得られる反応性との関連付けが強化することができると考えました。本研究では、この結び付けを強化するため、量子化学計算により得られたケトン分子間の相互作用領域の特徴を有した電子情報を機械学習モデルに組み込み、化学反応選択性とケトン分子の相互作用領域との関連を定量的に解析しています。
+有機化学において、反応の山場である遷移状態を量子化学計算で導出し、三次元的な電子的情報として扱うことは非常に重要です。これらを解析することで実験で得られる反応性との関連付けが強化することができると考えました。本研究では、この結び付けを強化するため、量子化学計算により得られた分子間の相互作用領域の特徴を有した電子情報を機械学習モデルに組み込み、化学反応選択性と分子の相互作用領域との関連を定量的に解析しています。
 
 ## 研究の背景
 有機合成化学において、反応選択性や反応性の制御は重要です。特に、ケトン基(C=O)に対する求核反応や還元反応は反応性に富むアルコールを立体選択的に合成する方法として重要です。これまで、計算や実験、機械学習的なアプローチによってケトン基に対する反応選択性の説明や予測が試みられてきましたが、ケトン基や反応剤の構造は多様なため網羅的に選択性を説明することは困難でした。我々のグループでは、反応の本質を支配する立体電子状態の評価を軸に、計算化学とデータ駆動的なアプローチを融合し、反応選択性の網羅的な予測手法の確立や体系的な理解を目指しています。
@@ -84,27 +84,33 @@ published: true
 
 ## 関連論文
 - Sakaguchi, Daimon, Kawasaki, Taisei, Itakura, Mayu, Tada, Chihiro, and Hiroaki Gotoh, "Competition Experiment-Based Kinetic Analysis of Ketone Reductions and Data-Driven Prediction of Regioselectivity" (2025) preparing.
-- Sakaguchi, Daimon, Shimono, Masaki, and Hiroaki Gotoh, "Analysis of Asymmetric Reduction of Ketones Using Three-
-Dimensional Electronic States" The Journal of Physical Chemistry A 129.39 (2025): 8945-8958.
-- 坂口大門, 五東弘昭. "立体電子状態の定量評価による求核反応の面選択性の起源の解明." Journal of Computer Chemistry, Japan 24.1 (2025): A18-A24.
-- Sakaguchi, Daimon, and Hiroaki Gotoh. "Using Three-Dimensional Information to Predict and Interpret the Facial Selectivities of Nucleophilic Additions to Cyclic Ketones." Journal of Chemical Information and Modeling 64.8 (2024): 3213-3221.
+- Sakaguchi, Daimon, Shimono, Masaki, and Hiroaki Gotoh, "[Analysis of Asymmetric Reduction of Ketones Using Three-Dimensional Electronic States](https://doi.org/10.1021/acs.jpca.5c03510)" The Journal of Physical Chemistry A 129.39 (2025): 8945-8958.
+- 坂口大門, 五東弘昭. "[立体電子状態の定量評価による求核反応の面選択性の起源の解明](https://doi.org/10.2477/jccj.2024-0043)." Journal of Computer Chemistry, Japan 24.1 (2025): A18-A24.
+- Sakaguchi, Daimon, and Hiroaki Gotoh. "[Using Three-Dimensional Information to Predict and Interpret the Facial Selectivities of Nucleophilic Additions to Cyclic Ketones](https://doi.org/10.1021/acs.jcim.4c00101)." Journal of Chemical Information and Modeling 64.8 (2024): 3213-3221.
 - Sakaguchi, Daimon, and Hiroaki Gotoh. "Quantification of steric hindrance by geometric calculation, prediction of the reductive selectivity of ketones, and clarification of reaction mechanism." (2022).
 
 ---
 ## 用語集
-TS構造：
+**TS構造**：
 分子は反応するとき、結合の長さや結合角の大きさなど、構造を変化させながら反応する。また、この構造によって分子の持つエネルギーが変化する。分子が反応して、異なる分子に変化する(生成物になる)とき、分子の持つエネルギーは一度上昇したのちに、降下するため、極大値をもつ。このエネルギーが極大値となっている瞬間の分子の構造をＴＳ構造という。
-面選択性：
+
+**面選択性**：
 炭素などが環状に繋がっており、その環にケトン基が結合している分子を還元した場合、ヒドロキシ基が環に対して上側に結合する場合と下側に結合する場合の２パターンが生じる。このようにアルコールの立体が様々な要因から決定される現象を面選択性という。
-位置選択性：
+
+**位置選択性**：
 ケトン基が複数ある分子は、そのケトン基の周辺の環境によって還元されやすさが異なる。このようにどのケトン基が還元されるかが様々な要因から決定される現象を位置選択性という。
-量子化学計算：
+
+**量子化学計算**：
 原子や分子の電子状態をシュレーディンガー方程式ともとに数値的に求める方法。
 原子は原子核と電子から構成されており、その特性は主に電子の状態により決まる。電子は非常に小さいため、運動方程式mα = Fのような古典力学では運動を記述することができないが、代わりに量子力学の基本方程式であるシュレーディンガー方程式を近似することで数値的な表現が可能になる。(参考：https://www.jstage.jst.go.jp/article/oubutsu/86/8/86_720/_pdf/-char/en)
-構造最適化：
+
+**構造最適化**：
 分子の最も安定な(最も存在確率の高い)立体構造を求めること。
-機械学習:
+
+**機械学習**:
 入力したデータのパターンや規則性をコンピュータが学習すること。(定期テスト対策のために、過去問を解いて、テストの傾向を掴もうとすることのイメージ。)
-モデル：
+
+**モデル**：
 正しい予測結果を得るためには、データをどう判断したらよいのかを仕組み化したもの。学習した結果をもとに作成される。(過去問を解いたあと、教科書のどのあたりを重点的に勉強すれば点数が取れる(だろう)、逆にここには勉強時間を割くべきでない、などという勉強の指針を立てイメージ。)
+
 ![nucleophilic addition abstruct]({{ site.baseurl }}/images/portfolio/cbs_acetophenone.gif)
