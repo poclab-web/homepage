@@ -28,22 +28,12 @@ published: true
 - 分子記述子と物性値の相関解析
 - 深層学習による構造-活性相関の予測
 
-<div style="width:50%; display:block; text-align:center; margin:24px 0;">
-  <img src="../images/portfolio/02/takahata.png"
-       alt=""
-       style="max-width:520px; width:50%; height:auto; display:block; margin:0 auto;">
-</div>
-<br><br>
-
+![]({{ site.baseurl }}//images/portfolio/02/takahata.png)
 
 - ベイズ最適化による効率的な分子設計
-<div style="width:50%; display:block; text-align:center; margin:24px 0;">
-  <img src="../images/portfolio/02/GA.png"
-       alt="GA"
-       style="max-width:520px; width:50%; height:auto; display:block; margin:0 auto;">
-</div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*特定骨格における吸光特性の最適化*
+![]({{ site.baseurl }}/images/portfolio/02/GA.png)
+*特定骨格における吸光特性の最適化*
 
 
 #### 4. **機械学習・MD計算を活用した新規高分子材料の探索**
@@ -51,21 +41,13 @@ published: true
 - 機械学習とMD計算のハイブリッド化で予測の高速化
 - MD計算が現実的でない物性の予測
 
-<div style="width:50%; display:block; text-align:center; margin:24px 0;">
-  <img src="../images/portfolio/02/yoshioka.png"
-       alt=""
-       style="max-width:520px; width:50%; height:auto; display:block; margin:0 auto;">
-</div>
-<br><br>
+![]({{ site.baseurl }}/images/portfolio/02/yoshioka.png)
 
 ### 🔬 **実験・計算アプローチ**
 
 #### **理論計算手法**
-<div style="width:50%; display:block; text-align:center; margin:24px 0;">
-  <img src="../images/portfolio/02/calculation.png"
-       alt="calculation_methods"
-       style="max-width:520px; width:50%; height:auto; display:block; margin:0 auto;">
-</div>
+
+![]({{ site.baseurl }}/images/portfolio/02/calculation.png)
 
 1. **分子動力学計算**: MD計算による分子物性の予測
 2. **半経験手法** : xTBを用いた一点計算、構造最適化、振動計算、CRESTを用いた配座探索・交差点の探索
