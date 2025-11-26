@@ -32,7 +32,7 @@ published: true
   <img src="../images/portfolio/02/GA.png" width="50%" alt="GA">
   <br>
   <span style="font-size: 0.9em; color: #666;">
-           特定骨格における吸光特性の最適化
+    &nbsp;&nbsp;&nbsp;特定骨格における吸光特性の最適化
   </span>
 </div>
 
