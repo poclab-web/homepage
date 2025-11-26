@@ -28,11 +28,9 @@ published: true
 - 分子記述子と物性値の相関解析
 - 深層学習による構造-活性相関の予測
 - ベイズ最適化による効率的な分子設計
-
-<p align="center">
-  <img src="../images/portfolio/02/GA.png" width="50%">
-</p>
-
+<div style="text-align:center">
+ <img src="../images/portfolio/02/GA.png" width="50%">
+ </div>
 #### 4. **機械学習・MD計算を活用した新規高分子材料の探索**
 - モノマー情報とポリマー物性の相関解析
 - 機械学習とMD計算のハイブリッド化で予測の高速化
