@@ -49,6 +49,9 @@ published: true
 - 予測モデルを活用した有望成分の探索
 - 健康機能性食品や医薬品リード化合物の開発支援
 
+<img width="1658" height="1097" alt="image" src="https://github.com/user-attachments/assets/8926a00e-96da-4186-a305-5d30a678d5da" />
+
+
 ## 研究の特徴
 
 ### 食品情報学（Food Informatics）の先駆け
