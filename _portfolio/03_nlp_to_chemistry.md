@@ -9,8 +9,8 @@ published: true
 ## プロジェクト概要
 
 　このプロジェクトでは、ChatGPTやGeminiなどの『生成AI』にも広く応用されている**自然言語処理**(Natural Language Process, **NLP**)という人工知能技術を活用することで、日々世界中で発表される膨大な量の化学論文やデータベースに含まれる化学的情報を効率的に引き出し、そこで引き出された情報を用いた分子の物性予測や新規分子の設計の更なる高度化を目指して研究を行っている。
- 
-<img src="../images/portfolio/NLP_abstruct.png" width="62.5%" style="display: block; margin: auto;">
+
+![]({{ site.baseurl }}/images/portfolio/NLP_abstruct.png)
 
 ## 研究内容
 
