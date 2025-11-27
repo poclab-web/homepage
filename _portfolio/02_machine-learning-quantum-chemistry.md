@@ -40,7 +40,7 @@ published: true
 - モノマー情報とポリマー物性の相関解析
 - 機械学習とMD計算のハイブリッド化で予測の高速化
 - MD計算が現実的でない物性の予測
-![]({{ site.baseurl }}/images/portfolio/02/ChatGPT Image 2025年11月26日 21_36_42.png)
+![]({{ site.baseurl }}/images/portfolio/02/yoshioka2.png)
 
 
 ### 🔬 **実験・計算アプローチ**
