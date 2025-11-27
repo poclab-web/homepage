@@ -1,13 +1,19 @@
 ---
 permalink: /
-title: "Welcome to POCLAB since 2018 "
+title: "Welcome to Gotoh Lab (POCLAB) at YNU"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-私たちは、**化学と情報科学**の交差点で研究を行うグループです。データ駆動型のアプローチを通じて、新しい分子と材料の発見と設計を加速することを目指し、**化学構造の情報を整理し世界中の人々がアクセスして使えるようにしていきます。**POCLabの「POC」は次を意味します:
+
+私たちは、**化学と情報科学**の交差点で研究を行うグループです。データ駆動型のアプローチを通じて、新しい分子と材料の発見と設計を加速することを目指し、**化学構造の情報を整理し世界中の人々がアクセスして使えるようにしていきます。**
+
+現在の研究室代表は、五東弘昭([Hiroaki Gotoh](https://researchmap.jp/7000002974))であり、2018年から代表となっています。廣田 穰([Hirota Minoru](https://nrid.nii.ac.jp/ja/nrid/1000000017881/))、榊原 和久([Kazuhisa Sakakiba](https://researchmap.jp/read0009120))、が横浜国立大学で築き上げた伝統をもとに、現代的なデータ駆動型のアプローチを取り入れて研究を行っています。
+
+
+POCLabの「POC」は次を意味します:
 
 - **Passion for Originality and Creativity(独創性と創造性への情熱)** 
 - **Proof of Concept (概念実証)** 

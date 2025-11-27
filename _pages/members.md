@@ -122,4 +122,3 @@ author_profile: true
 - seto akira
 - saitou hiroki
 - toba ryuta
-
