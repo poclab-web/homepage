@@ -231,7 +231,9 @@ collections:
   members:
     output: true
     permalink: /:collection/:path/
-
+  join:
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -296,7 +298,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-
 
 # Sass/SCSS
 sass:
