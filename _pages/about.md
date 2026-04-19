@@ -1,6 +1,5 @@
 ---
-permalink: /
-title: "Welcome to Gotoh Lab (POCLAB) at YNU"
+title: "About Gotoh Lab (POCLAB) at YNU"
 author_profile: true
 redirect_from: 
   - /about/
