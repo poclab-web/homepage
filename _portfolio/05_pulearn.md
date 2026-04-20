@@ -141,9 +141,10 @@ DOI: [10.1021/acs.jcim.5c03167](https://doi.org/10.1021/acs.jcim.5c03167)
 
 
 ### :computer: **ソフトウェア**
-1. [Substrate Scope Metrics](https://substrate-scope-metrics.streamlit.app/)  
-GitHub: https://github.com/poclab-web/streamlit-substrate-scope-metrics  
-Zenodo: [10.5281/zenodo.19564343](https://doi.org/10.5281/zenodo.19564343)
+1. Substrate Scope Metrics  
+[![](https://img.shields.io/badge/Streamlit-1.52-red?logo=streamlit)](https://substrate-scope-metrics.streamlit.app/)
+[![](https://img.shields.io/badge/GitHub-streamlit--substrate--scope--metrics-blue?logo=github)](https://github.com/poclab-web/streamlit-substrate-scope-metrics)
+[![](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19564343-blue?logo=zenodo)](https://doi.org/10.5281/zenodo.19564343)
 
 
 ### :newspaper: **紹介記事**
