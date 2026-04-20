@@ -114,6 +114,7 @@ b {
 #### 2. **基質適用範囲の定量的評価**
 - 基質適用範囲を基質の多様性の観点から定量化 :eyes:
 - 反応条件の特徴を捉える評価指標を新たに定義 :magic_wand:
+- 評価指標を計算する[Webアプリ](https://substrate-scope-metrics.streamlit.app)を公開 :iphone:
 
 
 ### 🔊 **学会発表**
@@ -131,7 +132,24 @@ b {
 
 
 ### :page_facing_up: **論文**
-1. Nishii, T; Ichizawa, K; Nagano, H; Mukai, H; Sakaguchi, D; Gotoh, H. Predicting Substrate Reactivity in Oxidative Homocoupling of Phenols using Positive and Unlabeled Machine Learning. [*ACS Omega* **2025**, *10* (42), 49805–49815](https://doi.org/10.1021/acsomega.5c05523).
+1. Nishii, T.; Ichizawa, K.; Nagano, H.; Mukai, H.; Sakaguchi, D.; Gotoh, H. Predicting Substrate Reactivity in Oxidative Homocoupling of Phenols using Positive and Unlabeled Machine Learning. *ACS Omega* **2025**, *10* (42), 49805–49815.  
+DOI: [10.1021/acsomega.5c05523](https://doi.org/10.1021/acsomega.5c05523)
+
+2. Ichizawa, K.; Nishii, T.; Gotoh, H. Substrate Scope in Organic Reactions: Comparison of Fingerprint-Based and Reactivity-Based Similarity Metrics. *Journal of Chemical Information and Modeling* **2026**, *66* (7), 3878–3891.  
+DOI: [10.1021/acs.jcim.5c03167](https://doi.org/10.1021/acs.jcim.5c03167)
+
+
+### :computer: **ソフトウェア**
+1. Substrate Scope Metrics  
+[![](https://img.shields.io/badge/Streamlit-Substrate_Scope_Metrics-red?logo=streamlit)](https://substrate-scope-metrics.streamlit.app/)
+[![](https://img.shields.io/badge/GitHub-streamlit--substrate--scope--metrics-green?logo=github)](https://github.com/poclab-web/streamlit-substrate-scope-metrics)
+[![](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19564343-blue?logo=zenodo)](https://doi.org/10.5281/zenodo.19564343)
+
+
+### :newspaper: **紹介記事**
+1. [【プレスリリース】有機反応の「適用範囲」を定量評価する新手法を開発](https://www.ynu.ac.jp/hus/koho/34873/detail.html)
+
+2. [有機反応の適用範囲を“見える化”した研究](https://zenn.dev/poclab_techblog/articles/e122ee49f88a70)
 
 
 ## 今後の展開
