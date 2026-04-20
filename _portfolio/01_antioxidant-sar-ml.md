@@ -1,6 +1,6 @@
 ---
-title: "抗酸化物質の構造活性相関研究"
-excerpt: "ポリフェノールのチカラをデータで見える化-AIと計算化学で食品の抗酸化能を未来予測を目指しています-<br/>
+title: "抗酸化能の解明と活性予測研究"
+excerpt: "実験化学と計算化学、機械学習を用いることにより、食品などの抗酸化能について全体像の解明を目指しています-<br/>
 <img src='../images/portfolio/food_informatics_flowchart.png' width='500' height='300'>"
 collection: portfolio
 published: true
@@ -29,8 +29,8 @@ published: true
 本研究では、**食品情報学（Food Informatics）**という新しい学術分野を切り開き、以下を目指します：
 
 - 食品成分（特にポリフェノール）の構造情報を解析し、試験法ごとにばらつく抗酸化能データを統一的に解釈
-- 新たな評価法の開発と検証
-- 計算化学と機械学習を組み合わせた予測モデルで、抗酸化能およびフェロトーシス制御能を事前に予測できる仕組みを構築
+- 新たな評価法の開発と検証による抗酸化能の評価
+- 計算化学と機械学習を組み合わせた予測モデルで、抗酸化能を事前に予測できる仕組みを構築
 - これにより、試行錯誤に依存してきた評価から、データ駆動型で理解・予測できる食品科学へ転換し、食品開発・健康科学・栄養設計への応用を目指します。
 
 ### 1. 抗酸化能データの整理と統合
@@ -122,10 +122,10 @@ Activity of Phenolic Compounds in Food](https://doi.org/10.3390/cimb48010012)
   **Efficient Discovery of Ferroptosis Inhibitors in the Biphenol Space via Synthetic Feasibility Prediction using Positive-Unlabeled Machine Learning**(CBI学会2025年大会)
 
 - 多田知弘, 加藤琉久, 西井崇文, 本間拓二郎, 五東弘昭  
-  **量子化学計算・実験化学・細胞実験を統合したフェロトーシス阻害剤の探索**(第15回CSJ化学フェスタ)
+  **量子化学計算・実験化学・細胞実験を統合したフェロトーシス阻害剤の探索**(第15回CSJ化学フェスタ2025)
 
 - 加藤琉久, 多田知弘, 山内萌衣花, 五東弘昭.  
-  **DPPH測定と機械学習を用いたフェノール類の抗酸化能予測**(第15回CSJ化学フェスタ)
+  **DPPH測定と機械学習を用いたフェノール類の抗酸化能予測**(第15回CSJ化学フェスタ2025)
 
 ## 研究費
 - 抗酸化性を示す食品成分の解明と網羅的予測([KAKEN 24K08785](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-24K08785/))
