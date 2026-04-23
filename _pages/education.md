@@ -10,10 +10,10 @@ POCLABでは、学部・大学院教育を通じて次世代の研究者育成�
 
 ## 化学者はコンピュータで必ずモデリング(計算や機械学習)をしてから実験をすることになると予測されている
 
-> **15 years no chemist will do bench experiments without computer-modelling them first**
+> **In 15 years no chemist will do bench experiments without computer-modelling them first**
 > (15年後、化学者はまずコンピューターでモデリングすることなしにベンチ実験を行うことはないだろう。)
 > 参考資料: 
-> [Next RSC president predicts that in 15 years no chemist will do bench experiments without computer-modelling them first](https://www.rsc.org/news-events/articles/2013/07-july/next-rsc-president-predicts-that-in-15-years-no-chemist-will-do-bench-experiments-without-computer-modelling-them-first/)
+> [Next RSC president predicts that in 15 years no chemist will do bench experiments without computer-modelling them first](https://phys.org/news/2013-07-rsc-years-chemist-bench-computer-modelling.html#goog_rewarded)
 
 今後も需要は大きくなると予想されていますが、行える人が圧倒的に少ないのが現状です。
 
