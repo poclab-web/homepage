@@ -2,7 +2,7 @@
 title: "ケトン反応選択性の解析と予測"
 description: "実験・計算化学・機械学習を組み合わせ、ケトン反応の選択性予測と決定要因の解析を進めています。"
 excerpt: "実験・計算化学・機械学習を組み合わせ、ケトン反応の選択性予測と決定要因の解析を進めています。<br/>
-<img src='../images/portfolio/QSSR_abstruct.png' width='500' height='300'>"
+<img src='../images/portfolio/QSSR_image.png' width='500' height='300'>"
 collection: portfolio
 published: true
 ---
@@ -10,7 +10,7 @@ published: true
 ## プロジェクト概要
 有機化学における反応選択性の理解には、反応の山場である遷移状態（TS構造<a href="#ts-structure"><sup>1</sup></a>）や、その周辺で働く三次元的な電子状態を捉えることが重要です。本研究では、ケトンの求核反応や、不斉還元反応・競争反応などの実験と、計算化学、さらに機械学習を組み合わせることで、反応選択性を予測すると同時に、その決定要因を定量的に解析しています。
 
-<div style="padding: 0.9rem 1rem; margin: 1rem 0 1.3rem; background: #f7fafc; border-left: 4px solid #2b8a3e;">
+<div style="padding: 0.9rem 1rem; margin: 1rem 0 1.3rem; background: #f7fafc; border-left: 4px solid #2b8a3e; color: #494e52;">
 <strong>キーワード</strong>: DFT計算 / 電子状態 / 遷移状態解析 / 反応選択性 / 求核反応 / 不斉還元 / 位置選択性 / 機械学習
 </div>
 
@@ -25,19 +25,19 @@ published: true
 実験・DFT計算・遷移状態解析で反応データを集め、三次元電子状態や相互作用特徴を抽出し、機械学習で選択性を予測・解釈します。
 
 <div style="text-align:center; margin: 1rem 0 1.6rem;">
-  <img src="../../images/portfolio/QSSR_abstruct.png" width="100%" alt="実験と計算を組み合わせたケトン反応選択性研究の概要">
+  <img src="../../images/portfolio/QSSR_image.png" width="100%" alt="実験と計算を組み合わせたケトン反応選択性研究の概要">
 </div>
 
 <div style="display:flex; flex-wrap:wrap; gap:12px; margin: 0 0 1.4rem;">
-  <div style="flex:1; min-width:220px; padding:12px 14px; background:#f8fbf8; border:1px solid #d9ece2; border-radius:8px;">
+  <div style="flex:1; min-width:220px; padding:12px 14px; background:#f8fbf8; border:1px solid #d9ece2; border-radius:8px; color:#494e52;">
     <strong>1. データ取得</strong><br/>
     競争反応実験、量子化学計算、遷移状態解析から反応性データを収集
   </div>
-  <div style="flex:1; min-width:220px; padding:12px 14px; background:#fffaf3; border:1px solid #f0e0bc; border-radius:8px;">
+  <div style="flex:1; min-width:220px; padding:12px 14px; background:#fffaf3; border:1px solid #f0e0bc; border-radius:8px; color:#494e52;">
     <strong>2. 特徴量設計</strong><br/>
     電子密度、静電ポテンシャル、相互作用領域、三次元電子状態を定量化
   </div>
-  <div style="flex:1; min-width:220px; padding:12px 14px; background:#f8f6ff; border:1px solid #ddd7ff; border-radius:8px;">
+  <div style="flex:1; min-width:220px; padding:12px 14px; background:#f8f6ff; border:1px solid #ddd7ff; border-radius:8px; color:#494e52;">
     <strong>3. 予測と解釈</strong><br/>
     面選択性・不斉選択性・位置選択性を予測し、決定要因を解明
   </div>
