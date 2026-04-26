@@ -25,7 +25,7 @@ published: true
 実験・DFT計算・遷移状態解析で反応データを集め、三次元電子状態や相互作用特徴を抽出し、機械学習で選択性を予測・解釈します。
 
 <div style="text-align:center; margin: 1rem 0 1.6rem;">
-  <img src="../../images/portfolio/QSSR_image.png" width="100%" alt="実験と計算を組み合わせたケトン反応選択性研究の概要">
+  <img src="../../images/portfolio/QSSR_abstruct.png" width="100%" alt="実験と計算を組み合わせたケトン反応選択性研究の概要">
 </div>
 
 <div style="display:flex; flex-wrap:wrap; gap:12px; margin: 0 0 1.4rem;">
