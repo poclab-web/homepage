@@ -1,6 +1,6 @@
 # POCLAB研究室ホームページ
 
-横浜国立大学 理工学部 化学・生命系学科 POCLAB（Precision Organic Chemistry Laboratory）の研究室Webサイトです。
+横浜国立大学 理工学部 化学・生命系学科 五東研究室 POCLAB（Precision Organic Chemistry Laboratory）Webサイトです。
 
 ![Homepage screenshot](images/homepage.png "POCLAB Homepage")
 
@@ -109,5 +109,5 @@ bundle exec jekyll serve --port 4001 --host localhost
 
 ---
 
-**最終更新**: 2025/08/26 
+**最終更新**: 2025/12/01 
 **管理者**: POCLAB

@@ -7,28 +7,26 @@ author_profile: true
 
 ## 現在の大学研究室メンバー
 
-![group photo 20025 11]({{ site.baseurl }}/images/member/group_photo/2025_11.png)
+![group photo 20025 11]({{ site.baseurl }}/images/member/group_photo/2026_04.png)
 
 | Position| Name | 
 |------|------|
 | PI | [gotoh hiroaki]({{ site.baseurl }}/members/gotoh-hiroaki/) |
-| D2 | [sakaguchi daimon]({{ site.baseurl }}/members/sakaguchi-daimon/)| 
-| D2| matsumoto yuuto | 
-| M2 | kawasaki taisei |
-| M2 | shimono masaki |
-| M2 | nishii takafumi|
-| M1 | ichizawa kaname |
-| M1 | koide yuya |
-| M1 | takahata fuka |
-| M1 | tada chihiro |
-| B4 | mukai hiroya |
-| B4 | itakura mayu |
-| B4 | kato riku |
-| B4 | watanabe kakeru |
-| B3 | oishi tomoki |
-| B3 | tsuboi kazuma|
-| B3 | yoshioka tatsuki |
-| B2 | nagata takeya |
+| D3 | [sakaguchi daimon]({{ site.baseurl }}/members/sakaguchi-daimon/)| 
+| D3| matsumoto yuuto | 
+| D1 | nishii takafumi|
+| M2 | ichizawa kaname |
+| M2 | koide yuya |
+| M2 | takahata fuka |
+| M2 | tada chihiro |
+| M1 | mukai hiroya |
+| M1 | itakura mayu |
+| M1 | kato riku |
+| M1 | watanabe kakeru |
+| B4 | oishi tomoki |
+| B4 | tsuboi kazuma|
+| B4 | yoshioka tatsuki |
+| B3 | nagata takeya |
 
 ---
 
@@ -36,12 +34,17 @@ author_profile: true
 
 2012年以降の学生(Sakakibara-Gotoh labの卒業生や修了生を含む)
 
-### 2025年
+### 2026年3月
+
+- kawasaki taisei
+- shimono masaki
+
+### 2025年3月
 
 - yamauchi moeka
 - watanabe yuya
 
-### 2024年
+### 2024年3月
 
 - lee eunseok
 - nagano haruka
@@ -49,7 +52,7 @@ author_profile: true
 - kitamura yukino
 - ban naoya
 
-### 2023年
+### 2023年3月
 
 - ito yurika
 - kimuro shunto
@@ -57,26 +60,26 @@ author_profile: true
 - sugiyama tomoki
 - fujimoto taiki
 
-### 2022年
+### 2022年3月
 
 - sakurai shuhei
 - kikuchi akito
 
-### 2021年
+### 2021年3月
 
 - hada shogo
 - ikeda ryunosuke
 - tadano kyosuke
 - seto ryotaro
 
-### 2020年
+### 2020年3月
 
 - ichikawa kazuya
 - iwata atsuki
 - hayashi kazuya
 - yamazaki yudai
 
-### 2019年
+### 2019年3月
 
 - takahashi takuji
 - tanaka kunpei
@@ -84,7 +87,7 @@ author_profile: true
 - nishimoto kohei
 - mihashi maiko
 
-### 2018年
+### 2018年3月
 
 - ichihara kenta
 - kohie mikiko
@@ -92,14 +95,14 @@ author_profile: true
 - sasada ryosuke
 - ohara iori
 
-### 2017年
+### 2017年3月
 
 - akiba yuka
 - ochi yuki
 - yonehara munehiro
 - kikumoto kazuho
 
-### 2016年
+### 2016年3月
 
 - iwasaki kosuke
 - kotani kohei
@@ -107,7 +110,7 @@ author_profile: true
 - nitta shinya
 - nakagawa sarara
 
-### 2015年
+### 2015年3月
 
 - kou bun
 - wakana ryo
@@ -116,10 +119,9 @@ author_profile: true
 - hamada hiroyoshi
 - liu wei
 
-### 2014年
+### 2014年3月
 
 - kuroha michiaki
 - seto akira
 - saitou hiroki
 - toba ryuta
-
