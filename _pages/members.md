@@ -12,7 +12,7 @@ author_profile: true
 | Position| Name | 
 |------|------|
 | PI | [gotoh hiroaki]({{ site.baseurl }}/members/gotoh-hiroaki/) |
-| D2 | sakaguchi daimon| 
+| D2 | [sakaguchi daimon]({{ site.baseurl }}/members/sakaguchi-daimon/)| 
 | D2| matsumoto yuuto | 
 | M2 | kawasaki taisei |
 | M2 | shimono masaki |
