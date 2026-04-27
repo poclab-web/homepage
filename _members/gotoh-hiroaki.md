@@ -6,6 +6,8 @@ author_profile: false
 permalink: /members/gotoh-hiroaki/
 ---
 
+![group photo 20025 11]({{ site.baseurl }}/images/member/member/hiroaki_gotoh.png)
+
 ## 略歴
 東京理科大学で有機化学を学んだ後(指導教員: 林　雄二郎教授)、Scripps 研究所にて天然物合成・ケミカルバイオロジー研究に従事しました(PI: Professor Dale L. Boger)。その後、横浜国立大学では物理有機化学（計算化学）を通じて反応機構解析の経験を積み(メンター: 榊原 和久教授)、2018年より独立しています。独立してからは、不斉触媒反応、ケミカルバイロジー、計算化学を基盤に、化学情報学で分野を横断する研究を進めてきました。
 

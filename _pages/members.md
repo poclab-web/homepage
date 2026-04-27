@@ -12,7 +12,7 @@ author_profile: true
 | Position| Name | 
 |------|------|
 | PI | [gotoh hiroaki]({{ site.baseurl }}/members/gotoh-hiroaki/) |
-| D3 | sakaguchi daimon| 
+| D3 | [sakaguchi daimon]({{ site.baseurl }}/members/sakaguchi-daimon/)| 
 | D3| matsumoto yuuto | 
 | D1 | nishii takafumi|
 | M2 | ichizawa kaname |
