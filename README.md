@@ -109,5 +109,5 @@ bundle exec jekyll serve --port 4001 --host localhost
 
 ---
 
-**最終更新**: 2025/12/01 
+**最終更新**: 2026/05/15
 **管理者**: POCLAB
