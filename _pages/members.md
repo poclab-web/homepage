@@ -9,24 +9,24 @@ author_profile: true
 
 ![group photo 20025 11]({{ site.baseurl }}/images/member/group_photo/2026_04.png)
 
-| Position| Name | 
-|------|------|
-| PI | [gotoh hiroaki]({{ site.baseurl }}/members/gotoh-hiroaki/) |
-| D3 | [sakaguchi daimon]({{ site.baseurl }}/members/sakaguchi-daimon/)| 
-| D3| matsumoto yuuto | 
-| D1 | nishii takafumi|
-| M2 | ichizawa kaname |
-| M2 | koide yuya |
-| M2 | takahata fuka |
-| M2 | tada chihiro |
-| M1 | mukai hiroya |
-| M1 | itakura mayu |
-| M1 | kato riku |
-| M1 | watanabe kakeru |
-| B4 | oishi tomoki |
-| B4 | tsuboi kazuma|
-| B4 | yoshioka tatsuki |
-| B3 | nagata takeya |
+| Position| Name |   | 
+|------|------|------|
+| PI | [gotoh hiroaki]({{ site.baseurl }}/members/gotoh-hiroaki/) || 
+| D3 | [sakaguchi daimon]({{ site.baseurl }}/members/sakaguchi-daimon/)|[DC2](https://www.jsps.go.jp/j-pd/pd_saiyoichiran.html)|  
+| D3| matsumoto yuuto |[YNU-SPRING](https://ope.ynu.ac.jp/learning_plus/doctor_support.html)|
+| D1 | nishii takafumi|[YNU-BOOST](https://ope.ynu.ac.jp/learning_plus/doctor_support.html)|
+| M2 | ichizawa kaname ||
+| M2 | koide yuya ||
+| M2 | takahata fuka ||
+| M2 | tada chihiro ||
+| M1 | mukai hiroya ||
+| M1 | itakura mayu ||
+| M1 | kato riku ||
+| M1 | watanabe kakeru ||
+| B4 | oishi tomoki ||
+| B4 | tsuboi kazuma||
+| B4 | yoshioka tatsuki ||
+| B3 | nagata takeya ||
 
 ---
 

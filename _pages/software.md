@@ -5,6 +5,8 @@ permalink: /software/
 author_profile: true
 ---
 
+We have made it available on the following website.
+https://zenodo.org/communities/poclab/
 
 ## eCoMFA
 

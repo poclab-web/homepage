@@ -29,8 +29,5 @@ main:
   - title: "Collaboration"
     url: /collaboration/
 
-  - title: "Software"
-    url: /software/
-
   - title: "join"
     url: /join/
