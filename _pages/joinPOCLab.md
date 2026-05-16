@@ -5,6 +5,8 @@ permalink: /join/
 author_profile: true
 ---
 
+> このページは、日本人以外の方が五東研究室にアプライするためのページです。日本人で進学希望の方は、[教育関係]({{ site.baseurl }}/education/)　をみてください。
+
 ## For Prospective International Students and Researchers
 
 POCLab (at Yokohama National University) welcomes international graduate students (master's and doctoral) and researchers interested in research that integrates chemistry and information science.
