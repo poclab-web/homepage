@@ -26,7 +26,9 @@ author_profile: true
 | B4 | oishi tomoki ||
 | B4 | tsuboi kazuma||
 | B4 | yoshioka tatsuki ||
+| B3 | tanaka kotoha ||
 | B3 | nagata takeya ||
+| B3 | nishi kosuke ||
 
 ---
 
