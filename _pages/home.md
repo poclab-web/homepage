@@ -9,7 +9,7 @@ redirect_from:
 
 私たちは、**化学と情報科学**の交差点で研究を行うグループです。データ駆動型のアプローチを通じて、新しい分子と材料の発見と設計を加速することを目指し、**化学構造の情報を整理し世界中の人々がアクセスして使えるようにしていきます。**
 
-![group photo 20026 4]({{ site.baseurl }}/images/member/group_photo/2026_04.png)
+![group photo 20026 4]({{ site.baseurl }}/images/member/group_photo/2026_10.png)
 
 ### 五東研究室への進学興味がある方は、以下のページをご覧ください。
 
