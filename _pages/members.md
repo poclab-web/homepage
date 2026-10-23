@@ -7,7 +7,7 @@ author_profile: true
 
 ## 現在の大学研究室メンバー
 
-![group photo 20025 11]({{ site.baseurl }}/images/member/group_photo/2026_04.png)
+![group photo 20025 11]({{ site.baseurl }}/images/member/group_photo/2026_10.png)
 
 | Position| Name |   | 
 |------|------|------|
